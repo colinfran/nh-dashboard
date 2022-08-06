@@ -4,7 +4,7 @@ A NiceHash dashboard to use on a tablet
 Built with React.js and Express.js using NiceHash API.
 
 
-## Getting Started
+### Getting Started
 
 First step is to adjust the filename for the .env-example file and change it to .env 
 
