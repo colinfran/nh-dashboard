@@ -1,0 +1,31 @@
+{
+  "name": "nh-dashboard",
+  "version": "1.0.0",
+  "description": "A NiceHash dashboard to use on a tablet",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm start --prefix ./server",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install": "sh ./script-install.sh",
+    "build": "sh ./script-build.sh",
+    "start": "npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinfran/nh-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colinfran/nh-dashboard/issues"
+  },
+  "homepage": "https://github.com/colinfran/nh-dashboard#readme",
+  "engines": {
+    "node": "16.11.1",
+    "npm": "8.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
