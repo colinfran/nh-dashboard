@@ -37,31 +37,36 @@ function Rig(props) {
   const [totalDevices, setTotalDevices] = useState(0);
   const [onlineDevices, setOnlineDevices] = useState(0);
   const [totalRigSpeed, setTotalRigSpeed] = useState(0);
+  const [totalRigpower, setTotalRigPower] = useState(0);
 
   useEffect(() => {
-    let totalDevice = 0
-    let onlineDevice = 0
-    let totalRigSpee = 0
+    let totalDevicesVal = 0
+    let onlineDevicesVal = 0
+    let totalRigSpeedVal = 0
+    let totalRigPowerVal = 0
     props?.rig?.devices?.map((device)=>{
       if (device?.status?.enumName !== "DISABLED"){
-        totalDevice += 1
+        totalDevicesVal += 1
       }
       return null;
     })
     props?.rig?.devices?.map((device)=>{
       if (device?.status?.enumName === "MINING"){
-        onlineDevice += 1
+        onlineDevicesVal += 1
+        totalRigPowerVal += device.powerUsage
         device?.speeds.map(speed => {
-          totalRigSpee += parseFloat(speed?.speed)
+          totalRigSpeedVal += parseFloat(speed?.speed)
           return null;
         });
       }
       return null;
     })
-    setTotalRigSpeed(totalRigSpee)
-    setTotalDevices(totalDevice)
-    setOnlineDevices(onlineDevice)
-  }, [props])
+    setTotalRigSpeed(totalRigSpeedVal)
+    setTotalDevices(totalDevicesVal)
+    setOnlineDevices(onlineDevicesVal)
+    setTotalRigPower(totalRigPowerVal)
+    
+  }, [props.rig.devices])
 
   const {
     profitability,
@@ -93,6 +98,8 @@ function Rig(props) {
           <RigItem>{rig.name}</RigItem>
           <RigItem>{statusVal}</RigItem>
           <RigItem>{`${(totalRigSpeed?.toFixed(2))?.toLocaleString("en-US")} MH`}</RigItem>
+          <RigItem>{`${totalRigpower} W`}</RigItem>
+          <RigItem>{`${(totalRigSpeed/totalRigpower).toFixed(2)} MH/W`}</RigItem>
           <RigItem>{`$${profitability} / 24hrs`}</RigItem>
         </RigContainer>
       </OuterContainer>
@@ -107,6 +114,7 @@ function Rig(props) {
                   const speed = parseFloat(device?.speeds[0]?.speed).toFixed(2)
                   const fanSpeed = device.revolutionsPerMinutePercentage
                   const power = device.powerUsage
+                  const efficiency = parseFloat(speed/power).toFixed(2)
                   if (device.status.enumName === "DISABLED") return null
                   return (
                     <TableRow
@@ -123,6 +131,7 @@ function Rig(props) {
                       <TableCell className="TableStyle" align="right">{`Fan: ${fanSpeed}%`}</TableCell>
                       <TableCell className="TableStyle" align="right">{`Speed: ${speed} MH`}</TableCell>
                       <TableCell className="TableStyle" align="right">{`Power: ${power} W`}</TableCell>
+                      <TableCell className="TableStyle" align="right">{`Eff: ${efficiency} MH/W`}</TableCell>
                     </TableRow>
                   )
                 })}
