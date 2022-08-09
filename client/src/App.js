@@ -1,10 +1,18 @@
 import {useEffect, useState} from "react"
 import './App.css';
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link, useLocation } from "react-router-dom";
 import Home from './Routes/Home';
 import Wallet from './Routes/Wallet';
 import Switch from '@mui/material/Switch';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+import * as React from "react";
+import { styled as mstyled} from '@mui/material/styles';
 
+const TabsContainer = mstyled(Tabs)(({ theme }) => ({
+  backgroundColor: "#49515F",
+  color:"white"
+}));
 function App() {
   const [data, setData] = useState();
   const [timeLeft, setTimeLeft] = useState(0);
@@ -14,10 +22,16 @@ function App() {
   // api is rate limitted, so data retrieval will occur every 45 seconds
   // this timer shows the countdown
   useEffect(() => {
+    let host = ""
+    let query = ""
+    if (window.location.host === "colinfran.github.io"){
+      host = "https://nh-dashboard-d4tym.ondigitalocean.app/"
+      query = "?test=true"
+    }
     if (refreshOn){
       async function fetchData() {
         try {
-          await fetch('/getData')
+          await fetch(`${host}/getData${query}`)
           .then(response => response.json())
           .then(data => {
             console.log(data)
@@ -40,8 +54,24 @@ function App() {
     }
   }, [timeLeft, refreshOn]);
 
+  const location = useLocation();
+
   return (
     <div className="App">
+      {data && (<TabsContainer value={location.pathname} centered >
+        <Tab 
+          label="Rigs"
+          component={Link}
+          to={`/`}
+          value={`/`} 
+        />
+        <Tab 
+          label="Wallet"
+          component={Link}
+          to={`/wallet`}
+          value={`/wallet`} 
+        />
+      </TabsContainer>)}
       <header className="App-header">
         <div style={{width: "92%"}}>
           <Routes>

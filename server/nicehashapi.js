@@ -274,6 +274,12 @@ class Accounting {
     return btcPrice
   }
 
+  
+  async getCryptoPrices() {
+    var url = `/main/api/v2/exchangeRate/list`;
+    return await this.api.getRequest(url);
+  }
+
   /**
    * Get balance for selected currency.
    * @permission VBTD
