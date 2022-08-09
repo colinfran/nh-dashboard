@@ -6,8 +6,8 @@ npm install concurrently
 echo ""
 echo "${GREEN}Installing modules in client directory${NC}"
 cd client
-npm install
+npm ci
 echo ""
 echo "${GREEN}Installing modules in server directory${NC}"
 cd ../server
-npm install
+npm ci

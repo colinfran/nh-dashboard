@@ -97,7 +97,7 @@ function Rig(props) {
         <RigContainer>
           <RigItem>{rig.name}</RigItem>
           <RigItem>{statusVal}</RigItem>
-          <RigItem>{`${(totalRigSpeed?.toFixed(2))?.toLocaleString("en-US")} MH`}</RigItem>
+          <RigItem>{`${(totalRigSpeed?.toFixed(2))} MH`}</RigItem>
           <RigItem>{`${totalRigpower} W`}</RigItem>
           <RigItem>{`${(totalRigSpeed/totalRigpower).toFixed(2)} MH/W`}</RigItem>
           <RigItem>{`$${profitability} / 24hrs`}</RigItem>
