@@ -4,7 +4,12 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const NHApi = require('./nicehashapi');
 require('dotenv').config({ path: '../.env' })
-
+const config = {
+  apiKey: process.env.APIKEY,
+  apiSecret: process.env.APISECRET,
+  orgId: process.env.ORGID
+}
+const api = new NHApi(config);
 
 var app = express();
 
@@ -14,20 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/getData', async (req, res) => {
-
-  const isTest = req.query.test || false;
-  
-  let host = isTest ? "https://api-test.nicehash.com" : "https://api2.nicehash.com"
-
-  const config = {
-    apiHost: host,
-    apiKey: process.env.APIKEY,
-    apiSecret: process.env.APISECRET,
-    orgId: process.env.ORGID
-  }
-  const api = new NHApi(config);
-  
+app.get('/getData', async (req, res) => {  
   const rigData = await api.MinerPrivate.getRigs().then((res) => {
     return res;
   });

@@ -22,16 +22,10 @@ function App() {
   // api is rate limitted, so data retrieval will occur every 45 seconds
   // this timer shows the countdown
   useEffect(() => {
-    let host = ""
-    let query = ""
-    if (window.location.host === "colinfran.github.io"){
-      host = "https://nh-dashboard-d4tym.ondigitalocean.app/"
-      query = "?test=true"
-    }
     if (refreshOn){
       async function fetchData() {
         try {
-          await fetch(`${host}/getData${query}`)
+          await fetch('/getData')
           .then(response => response.json())
           .then(data => {
             console.log(data)
