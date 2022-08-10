@@ -11,6 +11,9 @@ const Container = styled.div`
   justify-content: center;
   width: 100%;
 `
+const ButtonContainer = styled.div`
+  padding: 1em;
+` 
 
 function Transactions(props) {
   const [loadingTransactions, setLoadingTransactions] = useState(false);
@@ -46,7 +49,7 @@ function Transactions(props) {
       <Container >
         {transactionsList}
       </Container>
-      <div>
+      <ButtonContainer>
         <LoadingButton
           size="small"
           onClick={()=> getTransactions()}
@@ -56,7 +59,7 @@ function Transactions(props) {
         >
           Load more
         </LoadingButton>
-      </div>
+      </ButtonContainer>
     </div>
   );
 }
