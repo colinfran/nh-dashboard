@@ -118,9 +118,6 @@ function Rig(props) {
                     const power = device.powerUsage
                     const efficiency = speed === undefined || power === -1 ? 0 : parseFloat(speed/power).toFixed(2)
                     if (device.status.enumName === "DISABLED") return null
-                    // console.log("power", device.powerUsage)
-                    // console.log("speed", device?.speeds[0]?.speed)
-
                     return (
                       <TableRow
                         key={device.id}

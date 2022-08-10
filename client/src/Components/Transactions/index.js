@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import styled from '@emotion/styled'
 import Transaction from './Transaction';
 import WalletBalance from './WalletBalance';
@@ -14,8 +14,6 @@ const Container = styled.div`
 
 function Transactions(props) {
   const [loadingTransactions, setLoadingTransactions] = useState(false);
-
-  // console.log(props)
   async function getTransactions() {
     setLoadingTransactions(true)
     try {

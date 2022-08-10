@@ -71,9 +71,8 @@ function Transaction(props) {
   if (transaction?.type === "WITHDRAWAL"){
     transactionType = "Withdrawal"
   }
-  // console.log(transaction)
   const timestamp = new Date(transaction?.time)
-  const btcPrice = props?.data?.btcPrice
+  const btcPrice = data.btcPrice
   const payment = Number(transaction?.amount)
   const transactionFee = Number(transaction?.feeAmount)
   const transactionFinal = payment-transactionFee
