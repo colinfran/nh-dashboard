@@ -30,6 +30,17 @@ const TablePaper = mstyled(Paper)(({ theme }) => ({
   borderTopLeftRadius: 0
 }));
 
+const OuterContainer = mstyled(Paper)(({ theme, openstyle }) => ({
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  color: theme.palette.text.secondary,
+  height: "40%",
+  marginTop: 16,
+  ...openstyle
+}));
+
 
 function Rig(props) {
   const [open, setOpen] = useState(false);
@@ -73,73 +84,68 @@ function Rig(props) {
     rig,
   } = props
 
-  const openStyle = open ? {
+  const openstyle = open ? {
     borderBottomRightRadius: 0,
     borderBottomLeftRadius: 0
   } : {}
 
-  const OuterContainer = mstyled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-    height: "40%",
-    marginTop: 16,
-    ...openStyle
-  }));
-
   const statusVal = rig?.minerStatus === "OFFLINE" ? "Rig offline" : `Mining (${onlineDevices}/${totalDevices})`
+  const efficiency = totalRigSpeed === 0 && totalRigpower === 0 ? 0 : (totalRigSpeed/totalRigpower).toFixed(2)
 
   return (
     <div>
-      <OuterContainer elevation={5} onClick={()=> setOpen(!open)}>
+      <OuterContainer elevation={5} onClick={()=> setOpen(!open)} openstyle={openstyle}>
         <RigContainer>
           <RigItem>{rig.name}</RigItem>
           <RigItem>{statusVal}</RigItem>
           <RigItem>{`${(totalRigSpeed?.toFixed(2))} MH`}</RigItem>
           <RigItem>{`${totalRigpower} W`}</RigItem>
-          <RigItem>{`${(totalRigSpeed/totalRigpower).toFixed(2)} MH/W`}</RigItem>
+          <RigItem>{`${efficiency} MH/W`}</RigItem>
           <RigItem>{`$${profitability} / 24hrs`}</RigItem>
         </RigContainer>
       </OuterContainer>
-      <Collapse in={open}>
-        <div>
-          <TableContainer component={TablePaper} elevation={5}>
-            <Table sx={{ minWidth: 650 }} aria-label="simple table">
-              <TableBody>
-                {rig.devices.map((device) => {
-                  const temp = device.temperature % 65536
-                  const vramtemp = ~~(device.temperature / 65536)
-                  const speed = parseFloat(device?.speeds[0]?.speed).toFixed(2)
-                  const fanSpeed = device.revolutionsPerMinutePercentage
-                  const power = device.powerUsage
-                  const efficiency = parseFloat(speed/power).toFixed(2)
-                  if (device.status.enumName === "DISABLED") return null
-                  return (
-                    <TableRow
-                      key={device.id}
-                      sx={{ 
-                        fontSize: "calc(4px + 2vmin)",
-                        '&:last-child td, &:last-child th': { 
-                          border: 0 
-                        } }}
-                    >
-                      <TableCell className="TableStyle" component="th" scope="row">{device.name}</TableCell>
-                      <TableCell className="TableStyle" align="right">{`Temp: ${temp}ºC`}</TableCell>
-                      <TableCell className="TableStyle" align="right">{`Vram: ${vramtemp}ºC`}</TableCell>
-                      <TableCell className="TableStyle" align="right">{`Fan: ${fanSpeed}%`}</TableCell>
-                      <TableCell className="TableStyle" align="right">{`Speed: ${speed} MH`}</TableCell>
-                      <TableCell className="TableStyle" align="right">{`Power: ${power} W`}</TableCell>
-                      <TableCell className="TableStyle" align="right">{`Eff: ${efficiency} MH/W`}</TableCell>
-                    </TableRow>
-                  )
-                })}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        </div>
-      </Collapse>
+      {rig?.minerStatus !== "OFFLINE" && (
+        <Collapse in={open}>
+          <div>
+            <TableContainer component={TablePaper} elevation={5}>
+              <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                <TableBody>
+                  {rig.devices.map((device) => {
+                    const temp = device.temperature % 65536
+                    const vramtemp = ~~(device.temperature / 65536)
+                    const speed = parseFloat(device?.speeds[0]?.speed).toFixed(2)
+                    const fanSpeed = device.revolutionsPerMinutePercentage
+                    const power = device.powerUsage
+                    const efficiency = speed === undefined || power === -1 ? 0 : parseFloat(speed/power).toFixed(2)
+                    if (device.status.enumName === "DISABLED") return null
+                    // console.log("power", device.powerUsage)
+                    // console.log("speed", device?.speeds[0]?.speed)
+
+                    return (
+                      <TableRow
+                        key={device.id}
+                        sx={{ 
+                          fontSize: "calc(4px + 2vmin)",
+                          '&:last-child td, &:last-child th': { 
+                            border: 0 
+                          } }}
+                      >
+                        <TableCell className="TableStyle" component="th" scope="row">{device.name}</TableCell>
+                        <TableCell className="TableStyle" align="right">{`Temp: ${temp}ºC`}</TableCell>
+                        <TableCell className="TableStyle" align="right">{`Vram: ${vramtemp}ºC`}</TableCell>
+                        <TableCell className="TableStyle" align="right">{`Fan: ${fanSpeed}%`}</TableCell>
+                        <TableCell className="TableStyle" align="right">{`Speed: ${speed} MH`}</TableCell>
+                        <TableCell className="TableStyle" align="right">{`Power: ${power} W`}</TableCell>
+                        <TableCell className="TableStyle" align="right">{`Eff: ${efficiency} MH/W`}</TableCell>
+                      </TableRow>
+                    )
+                  })}
+                </TableBody>
+              </Table>
+            </TableContainer>
+          </div>
+        </Collapse>
+      )}
     </div>
   );
 }

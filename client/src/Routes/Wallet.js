@@ -1,24 +1,24 @@
-import Balance from '../Components/Old/Balance';
-import BitcoinPrice from '../Components/Old/BitcoinPrice';
-import Rigs from '../Components/Old/Rigs';
 import { Fade } from '@mui/material';
+import Transactions from '../Components/Transactions';
+import CircularProgress from '@mui/material/CircularProgress';
 
 function Wallet(props) {
-  const {data} = props
+  const {data, transactions} = props
   return (
-    <>
-      <Fade in={data !== undefined} timeout={2000}>
+    <div>
+      {data !== undefined && transactions !== undefined ? (
+        <Fade in={transactions !== undefined} timeout={2000}>
+          <div>
+            <Transactions {...props}/>
+          </div>
+        </Fade>
+      ) : (
         <div>
-          <div>
-            <BitcoinPrice {...data}/>
-            <Balance {...data}/>
-          </div>
-          <div>
-            <Rigs {...data}/>
-          </div>
+          <CircularProgress color="inherit" />
+          <div>Fetching your data</div>
         </div>
-      </Fade>
-    </>
+      )}
+    </div>
   );
 }
 

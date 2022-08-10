@@ -13,8 +13,10 @@ const TabsContainer = mstyled(Tabs)(({ theme }) => ({
   backgroundColor: "#49515F",
   color:"white"
 }));
+
 function App() {
   const [data, setData] = useState();
+  const [transactions, setTransactions] = useState();
   const [timeLeft, setTimeLeft] = useState(0);
   const [refreshOn, setRefreshOn] = useState(true);
 
@@ -48,11 +50,27 @@ function App() {
     }
   }, [timeLeft, refreshOn]);
 
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        await fetch('/getWalletTransactions')
+        .then(response => response.json())
+        .then(data => {
+          console.log(data)
+          setTransactions(data)
+        });
+      } catch (e) {
+        console.error('Error fetching nicehash transaction data', e);
+      };
+    };
+    fetchData();
+  }, []);
+
   const location = useLocation();
 
   return (
     <div className="App">
-      {data && (<TabsContainer value={location.pathname} centered >
+      <TabsContainer value={location.pathname} centered >
         <Tab 
           label="Rigs"
           component={Link}
@@ -65,12 +83,12 @@ function App() {
           to={`/wallet`}
           value={`/wallet`} 
         />
-      </TabsContainer>)}
+      </TabsContainer>
       <header className="App-header">
         <div style={{width: "92%"}}>
           <Routes>
-            <Route path="/" element={<Home data={data}/>} />
-            <Route path="/wallet" element={<Wallet data={data}/>} />
+            <Route path="/" element={<Home data={data} transactions={transactions}/>} />
+            <Route path="/wallet" element={<Wallet data={data} transactions={transactions} setTransactions={setTransactions}/>} />
           </Routes>
         </div>
       </header>
