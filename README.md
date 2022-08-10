@@ -1,12 +1,12 @@
 # nh-dashboard
 A NiceHash dashboard to use on a tablet
+<br/>
+Built with React.js and Express.js using NiceHash API.
+<br/>
 
 ## Demo
 https://nh-dashboard-d4tym.ondigitalocean.app/
-<br/><br/><br/>
-
-Built with React.js and Express.js using NiceHash API.
-
+<br/><br/>
 
 ### Getting Started
 
