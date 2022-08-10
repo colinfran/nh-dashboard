@@ -319,7 +319,7 @@ class Accounting {
     type = undefined,
     timestamp = undefined,
     stage = "ALL",
-    limit = 10
+    limit = 11
   ) {
     const query = this.api.buildQuery([
       { key: "type", value: type },
