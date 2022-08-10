@@ -113,7 +113,7 @@ function Rig(props) {
                   {rig.devices.map((device) => {
                     const temp = device.temperature % 65536
                     const vramtemp = ~~(device.temperature / 65536)
-                    const speed = parseFloat(device?.speeds[0]?.speed).toFixed(2)
+                    const speed = parseFloat(device?.speeds[0]?.speed || 0).toFixed(2)
                     const fanSpeed = device.revolutionsPerMinutePercentage
                     const power = device.powerUsage
                     const efficiency = speed === undefined || power === -1 ? 0 : parseFloat(speed/power).toFixed(2)
