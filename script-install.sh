@@ -8,14 +8,13 @@ rm -rf ./server/node_modules
 rm package-lock.json
 rm ./client/package-lock.json
 rm ./server/package-lock.json
+npm cache clean --force
 echo ""
 echo "${GREEN}Installing concurrently in root directory${NC}"
 npm install concurrently
 echo ""
 echo "${GREEN}Installing modules in client directory${NC}"
-cd client
-npm i
+npm install --prefix ./client
 echo ""
 echo "${GREEN}Installing modules in server directory${NC}"
-cd ../server
-npm i
+npm install --prefix ./server
