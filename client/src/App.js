@@ -34,7 +34,7 @@ function App() {
             setData(data)
           });
         } catch (e) {
-          console.error('Error fetching nicehash data', e);
+          console.error('Error fetching nicehash data; Backend is possibly offline;', e);
         };
       };
       if(timeLeft===0){
@@ -60,7 +60,7 @@ function App() {
           setTransactions(data)
         });
       } catch (e) {
-        console.error('Error fetching nicehash transaction data', e);
+        console.error('Error fetching nicehash transaction data; Backend is possibly offline;', e);
       };
     };
     fetchData();
