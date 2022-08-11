@@ -26,14 +26,10 @@ app.get('/getData', async (req, res) => {
   const walletBalance = await api.Accounting.getBalance("BTC").then((res) => {
     return res;
   });
-  const btcPrice = await api.Accounting.getBTCPrice().then((res) => {
+  const prices = await api.Accounting.getBTCETHPrice().then((res) => {
     return res;
   });
-  const transactions = await api.Accounting.getActivities("BTC").then((res) => {
-    return res;
-  });
-
-  return res.json({walletBalance, rigData, btcPrice});
+  return res.json({walletBalance, rigData, btcPrice: prices[0], ethPrice: prices[1]});
 })
 
 app.get('/getWalletTransactions', async (req, res) => {  

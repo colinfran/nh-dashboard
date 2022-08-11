@@ -7,10 +7,10 @@ import currencyFormatter from "currency-formatter"
 const Container = mstyled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
-  padding: theme.spacing(1),
+  padding: theme.spacing(2),
   textAlign: 'center',
   color: theme.palette.text.secondary,
-  height: "40%"
+  marginTop: 16
 }));
 
 const TextWrapper = styled.div`

@@ -264,14 +264,16 @@ class Accounting {
     this.api = api;
   }
 
-  async getBTCPrice() {
+  async getBTCETHPrice() {
     var url = `/main/api/v2/exchangeRate/list`;
     const data = await this.api.getRequest(url);
-    let btcPrice = ""
+    let prices = []
     data.list.map(item => {
-      if (item.fromCurrency === "BTC" && item.toCurrency === "USD") btcPrice = item.exchangeRate
+      if (item.fromCurrency === "BTC" && item.toCurrency === "USD") prices[0] = item.exchangeRate
+      if (item.fromCurrency === "ETH" && item.toCurrency === "USD") prices[1] = item.exchangeRate
+
     })
-    return btcPrice
+    return prices
   }
 
   

@@ -3,14 +3,14 @@ import { styled as mstyled} from '@mui/material/styles';
 import styled from '@emotion/styled';
 import Paper from '@mui/material/Paper';
 import currencyFormatter from "currency-formatter"
+import { useTimer } from 'react-timer-hook';
 
 const Container = mstyled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
-  padding: theme.spacing(1),
+  padding: theme.spacing(2),
   textAlign: 'center',
   color: theme.palette.text.secondary,
-  height: "40%"
 }));
 
 const TextWrapper = styled.div`
@@ -35,12 +35,24 @@ const BtcValue = styled.div`
 function SmallSquareTop(props) {
   let unpaidAmount = Number(props?.rigData?.unpaidAmount)
   let btcPrice = Number(props?.btcPrice)
+  let countdownTimestamp = props?.rigData?.nextPayoutTimestamp
+
+  const {
+    seconds,
+    minutes,
+    hours,
+    isRunning,
+  } = useTimer({ expiryTimestamp: new Date(countdownTimestamp)});
+  
+  const countdownRender = isRunning ? <span>{`${hours}hr ${minutes}m ${seconds}s `}</span> : <span>Payout in progress.</span>
+
   return (
     <Container elevation={5}>
       <TextWrapper>
         <BalanceText>Unpaid Balance</BalanceText>
         <UsdValue>{`${currencyFormatter.format(parseFloat(btcPrice * unpaidAmount), { code: 'USD' })} USD`}</UsdValue>
         <BtcValue>{`${unpaidAmount.toFixed(8)} BTC`}</BtcValue>
+        <div>{countdownRender}</div>
       </TextWrapper>
     </Container>
   );

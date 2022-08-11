@@ -13,10 +13,11 @@ const Container = mstyled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
   justifyContent:"center",
   alignItems:"center",
+  height: "100%"
 }));
 
 const OuterGrid = mstyled(Grid)(({ theme }) => ({
-  height: 250,
+  height: "100%",
   margin: 0,
   paddingRight: 16
 }));
@@ -34,8 +35,8 @@ const CurrentlyMiningText = styled.div`
 const CurrentlyMiningValue = styled.div`
   font-size: calc(4px + 4vmin);
 `
-const BtcPrice = styled.div`
-  font-size: calc(2px + 2.75vmin);
+const Price = styled.div`
+  font-size: calc(2px + 2.5vmin);
 `
 const Left = styled.div`
   width: 65%;
@@ -62,7 +63,8 @@ const ImgContainer = styled.div`
 
 
 function BigSquare(props) {
-  let btcPrice = Number(props?.btcPrice).toFixed(2)
+  let btcPrice = Number(props?.btcPrice)
+  let ethPrice = Number(props?.ethPrice)
   let totalProf = props?.rigData?.totalProfitability
   return (
     <Container elevation={16}>
@@ -71,7 +73,8 @@ function BigSquare(props) {
           <div>
             <CurrentlyMiningText>Daily mining profit</CurrentlyMiningText>
             <CurrentlyMiningValue>{`${currencyFormatter.format(parseFloat(btcPrice * totalProf), { code: 'USD' })} / 24hrs`}</CurrentlyMiningValue>
-            <BtcPrice>{`1 BTC ≈ ${currencyFormatter.format(parseFloat(btcPrice), { code: 'USD' })}`}</BtcPrice>
+            <Price>{`1 BTC ≈ ${currencyFormatter.format(parseFloat(btcPrice), { code: 'USD' })}`}</Price>
+            <Price>{`1 ETH ≈ ${currencyFormatter.format(parseFloat(ethPrice), { code: 'USD' })}`}</Price>
           </div>
         </Left>
         <Right>
