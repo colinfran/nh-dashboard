@@ -8,11 +8,14 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import * as React from "react";
 import { styled as mstyled} from '@mui/material/styles';
+import { usePageVisibility } from 'react-page-visibility';
 
 const TabsContainer = mstyled(Tabs)(({ theme }) => ({
   backgroundColor: "#49515F",
   color:"white"
 }));
+
+
 
 function App() {
   const [data, setData] = useState();
@@ -20,11 +23,16 @@ function App() {
   const [timeLeft, setTimeLeft] = useState(0);
   const [refreshOn, setRefreshOn] = useState(true);
 
+
+ 
+  const isVisible = usePageVisibility()
+
+
   // get data from backend, fetch every 45 seconds
   // api is rate limitted, so data retrieval will occur every 45 seconds
   // this timer shows the countdown
   useEffect(() => {
-    if (refreshOn){
+    if (refreshOn && isVisible){
       async function fetchData() {
         try {
           await fetch('/getData')
@@ -48,7 +56,7 @@ function App() {
       }, 1000);
       return () => clearInterval(intervalId);
     }
-  }, [timeLeft, refreshOn]);
+  }, [timeLeft, refreshOn, isVisible]);
 
   useEffect(() => {
     async function fetchData() {
