@@ -1,5 +1,31 @@
+
 # nh-dashboard
-A NiceHash dashboard to use on a tablet
+A simple NiceHash dashboard that displays:
+
+**Overview**
+- Daily mining profits
+- BTC and ETH current price
+- Unpaid balance
+- Wallet Balance
+
+**Rig Stats**
+- #&#x2060; of rigs online
+- #&#x2060; of devices online
+- total power usage (GPU only; does not include system power)
+- total speed
+
+**Rigs**
+- rig total speed
+- rig total power
+- rig efficiency
+- rig profit
+- individual device temp
+- individual device vram temp
+- individual device speed
+- individual device fan speed
+- individual device power
+- individual device efficiency
+
 <br/>
 Built with React.js and Express.js using NiceHash API.
 <br/>
