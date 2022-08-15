@@ -40,8 +40,6 @@ First step is to adjust the filename for the .env-example file and change it to 
 
 Next step is to go to NiceHash Dashboard settings in your computer and get the API information. Add that to the .env file
 
-*Make sure that if you are committing this code to GitHub that you add the .env file to your .gitignore, you do not want this file to be committed and public facing as your NiceHash API credentials could be used by bad actors*
-
 Next, install the dependencies with npm i
 ```bash
 npm i
