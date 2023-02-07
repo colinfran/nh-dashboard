@@ -1,4 +1,5 @@
 import React, {useState, useRef} from "react";
+import { Link } from "react-router-dom";
 import nhlogo from "./nhlogo.png"
 import "./index.css"
 
@@ -43,21 +44,24 @@ const LogIn = (props) => {
   }
 
   return (
-    <div className="NHApp">
-      <img src={nhlogo} className="logo" alt="Business view - Reports" />
-      <div className="form">
-        <div className="LoginError" style={{visibility: errorOccured ? "initial": "hidden"}}>Login Failed. Please provide a correct email and password.</div>
-        <div className="input-group">
-          <label htmlFor="email">Email</label>
-          <input type="email" name="email" placeholder="email@email.com" ref={inputEmailRef} />
+    <>
+      <div className="NHApp">
+        <img src={nhlogo} className="logo" alt="Business view - Reports" />
+        <div className="form">
+          <div className="LoginError" style={{visibility: errorOccured ? "initial": "hidden"}}>Login Failed. Please provide a correct email and password.</div>
+          <div className="input-group">
+            <label htmlFor="email">Email</label>
+            <input type="email" name="email" placeholder="email@email.com" ref={inputEmailRef} />
+          </div>
+          <div className="input-group">
+            <label htmlFor="password">Password</label>
+            <input type="password" name="password" ref={inputPasswordRef} onKeyDown={(e) => e.key === 'Enter' && validateLogin()}/>
+          </div>
+          <button className="primary" onClick={()=>validateLogin()}>Login</button>
         </div>
-        <div className="input-group">
-          <label htmlFor="password">Password</label>
-          <input type="password" name="password" ref={inputPasswordRef} onKeyDown={(e) => e.key === 'Enter' && validateLogin()}/>
-        </div>
-        <button className="primary" onClick={()=>validateLogin()}>Login</button>
       </div>
-    </div>
+      <Link className="DemoButton" to="/demo">Check out the demo</Link>
+    </>
   );
 }
 

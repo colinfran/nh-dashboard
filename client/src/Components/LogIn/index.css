@@ -90,3 +90,8 @@ button.secondary:hover {
   font-size: 14px;
   visibility: hidden;
 }
+
+.DemoButton{
+  padding-top: 30px;
+  font-size: 24px;
+}
