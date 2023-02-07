@@ -12,6 +12,7 @@ import { usePageVisibility } from "react-page-visibility";
 
 import demoData from "./demo-data/data.json";
 import demoTransactions from "./demo-data/transactions.json";
+import LogIn from "./Components/LogIn";
 
 const TabsContainer = mstyled(Tabs)(({ theme }) => ({
   backgroundColor: "#49515F",
@@ -28,6 +29,21 @@ function App() {
   const [refreshOn, setRefreshOn] = useState(!isDemo);
 
   const isVisible = usePageVisibility();
+
+  let isLoggedInStartup = false
+  if (localStorage.getItem("isLoggedIn") === null) {
+    localStorage.setItem("isLoggedIn", false)
+  }
+  else if (localStorage.getItem("isLoggedIn") === "true") {
+    isLoggedInStartup = true
+  } else {
+    isLoggedInStartup = false
+  }
+
+  localStorage.getItem("mytime")
+
+  const [isLoggedIn, setIsLoggedIn] = useState(isLoggedInStartup);
+
 
 
   const fetchMinerDataProd = async () => {
@@ -76,7 +92,7 @@ function App() {
   // api is rate limitted, so data retrieval will occur every 45 seconds
   // this timer shows the countdown
   useEffect(() => {
-    if (refreshOn && isVisible) {
+    if (refreshOn && isVisible && isLoggedIn) {
       if (timeLeft === 0) {
         fetchMinerDataProd();
         setTimeLeft(45);
@@ -88,65 +104,76 @@ function App() {
       }, 1000);
       return () => clearInterval(intervalId);
     }
-  }, [timeLeft, refreshOn, isVisible]);
+  }, [timeLeft, refreshOn, isVisible, isLoggedIn]);
 
   useEffect(() => {
     if (isDemo) {
       fetchMinerDataDemo();
       fetchWalletDataDemo();
     } else {
-      fetchWalletDataProd();
+      if (isLoggedIn){
+        fetchWalletDataProd();
+      }
     }
-  }, [isDemo]);
+  }, [isDemo, isLoggedIn]);
 
   return (
     <div className="App">
       {
-         isDemo ? (
+         isDemo && (
           <TabsContainer value={location.pathname} centered>
             <Tab label="Rigs" component={Link} to={`/demo`} value={`/demo`} id="1"/>,
             <Tab label="Wallet" component={Link} to={`/demo/wallet`} value={`/demo/wallet`} id="2"/>
           </TabsContainer>
-         ) : (
+         )
+      }
+      {
+        isLoggedIn && (
           <TabsContainer value={location.pathname} centered>
             <Tab label="Rigs" component={Link} to={`/`} value={`/`} id="1"/>,
             <Tab label="Wallet" component={Link} to={`/wallet`} value={`/wallet`} id="2"/>
           </TabsContainer>
-         )
+        )
       }
       <header className="App-header">
-        <div style={{ width: "92%" }}>
-          <Routes>
-            <Route
-              path="/"
-              element={<Home data={data} transactions={transactions} />}
-            />
-            <Route
-              path="/wallet"
-              element={
-                <Wallet
-                  data={data}
-                  transactions={transactions}
-                  setTransactions={setTransactions}
+        {
+          isLoggedIn || isDemo ? (
+            <div style={{ width: "92%" }}>
+              <Routes>
+                <Route
+                  path="/"
+                  element={<Home data={data} transactions={transactions} />}
                 />
-              }
-            />
-            <Route
-              path="/demo/"
-              element={<Home data={data} transactions={transactions} />}
-            />
-            <Route
-              path="/demo/wallet"
-              element={
-                <Wallet
-                  data={data}
-                  transactions={transactions}
-                  setTransactions={setTransactions}
+                <Route
+                  path="/wallet"
+                  element={
+                    <Wallet
+                      data={data}
+                      transactions={transactions}
+                      setTransactions={setTransactions}
+                    />
+                  }
                 />
-              }
-            />
-          </Routes>
-        </div>
+                <Route
+                  path="/demo/"
+                  element={<Home data={data} transactions={transactions} />}
+                />
+                <Route
+                  path="/demo/wallet"
+                  element={
+                    <Wallet
+                      data={data}
+                      transactions={transactions}
+                      setTransactions={setTransactions}
+                    />
+                  }
+                />
+              </Routes>
+            </div>
+          ) : (
+            <LogIn setIsLoggedIn={setIsLoggedIn}/>
+          )
+        }
       </header>
       <div
         style={{
@@ -157,7 +184,7 @@ function App() {
           alignItems: "center",
         }}
       >
-        {!isDemo && (
+        {!isDemo && isLoggedIn && (
           <>
             <Switch checked={refreshOn} onChange={() => setRefreshOn(!refreshOn)} />
             {refreshOn ? (

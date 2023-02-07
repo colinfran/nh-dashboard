@@ -41,6 +41,22 @@ app.get('/getWalletTransactions', async (req, res) => {
   return res.json({transactions});
 })
 
+app.post('/loginUser', async (req, res) => {  
+  const envEmail = process.env.EMAIL
+  const envPassword = process.env.PASSWORD
+
+  console.log(req.body)
+  const requestEmail = req.body.email
+  const requestPassword = req.body.password
+
+
+  const response = {
+    loggedIn: requestEmail === envEmail && requestPassword === envPassword
+  }
+
+  return res.json(response);
+})
+
 
 app.get("/*",function(req,res,next){
   res.sendFile(__dirname + '/index.html');
