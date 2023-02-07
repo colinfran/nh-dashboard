@@ -127,7 +127,7 @@ function App() {
          )
       }
       {
-        isLoggedIn && (
+        isLoggedIn && !isDemo && (
           <TabsContainer value={location.pathname} centered>
             <Tab label="Rigs" component={Link} to={`/`} value={`/`} id="1"/>,
             <Tab label="Wallet" component={Link} to={`/wallet`} value={`/wallet`} id="2"/>
