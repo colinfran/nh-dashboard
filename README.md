@@ -6,7 +6,7 @@ A simple NiceHash dashboard that displays:
 https://nh-dashboard-d4tym.ondigitalocean.app/demo
 <br/><br/>
 
-<img src="./client/public/screenshot.png" alt="screenshot of nh-dashboard app" style="width: 50%"/>
+<img src="./client/public/screenshot.png" alt="screenshot of nh-dashboard app" style="max-width: 1010px"/>
 <br/><br/>
 **Overview**
 - Daily mining profits
