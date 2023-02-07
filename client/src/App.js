@@ -119,7 +119,7 @@ function App() {
   return (
     <div className="App">
       {
-         isDemo && (
+         isDemo && !isLoggedIn && (
           <TabsContainer value={location.pathname} centered>
             <Tab label="Rigs" component={Link} to={`/demo`} value={`/demo`} id="1"/>,
             <Tab label="Wallet" component={Link} to={`/demo/wallet`} value={`/demo/wallet`} id="2"/>
