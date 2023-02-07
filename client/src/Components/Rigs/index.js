@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import Rig from './Rig';
+import uniqid from 'uniqid';
 
 const Container = styled.div`
   display:flex;
@@ -17,7 +18,7 @@ function Rigs(props) {
       profitability,
       rig,
     }
-    return (<Rig key={rig.rigId} {...data}/>)
+    return (<Rig key={`${uniqid()}`} {...data}/>)
   })
   
   return (

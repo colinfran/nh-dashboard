@@ -3,6 +3,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const NHApi = require('./nicehashapi');
+
 require('dotenv').config({ path: '../.env' })
 const config = {
   apiKey: process.env.APIKEY,
@@ -37,7 +38,6 @@ app.get('/getWalletTransactions', async (req, res) => {
   const transactions = await api.Accounting.getActivities("BTC", undefined, timestamp).then((res) => {
     return res;
   });
-
   return res.json({transactions});
 })
 

@@ -63,7 +63,7 @@ const ImgContainer = styled.div`
 
 function WalletBalance(props) {
   let btcPrice = Number(props?.data?.btcPrice).toFixed(2)
-  let walletBalance = Number(props?.data?.walletBalance.available)
+  let walletBalance = Number(props?.data?.walletBalance.totalBalance)
 
   return (
     <Container elevation={16}>

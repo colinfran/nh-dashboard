@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import { useEffect, useState } from 'react'
+import uniqid from 'uniqid';
 
 const RowContainer = styled.div`
   display:flex;
@@ -115,7 +116,7 @@ const renderRigs = (props) => {
     })
     const statusVal = rig?.minerStatus === "OFFLINE" ? "Rig offline" : `Mining (${onlineDevices}/${totalDevices})`
     return (
-      <RigContainer key={rig.rigId}>
+      <RigContainer key={`${uniqid()}`}>
         <RigItem>{rig.name}</RigItem>
         <RigItem>{statusVal}</RigItem>
         <RigItem>{`${(totalRigSpeed.toFixed(2)).toLocaleString("en-US")} MH`}</RigItem>

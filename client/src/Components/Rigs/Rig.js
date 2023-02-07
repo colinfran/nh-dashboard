@@ -3,6 +3,7 @@ import Paper from '@mui/material/Paper';
 import Collapse from '@mui/material/Collapse';
 import styled from '@emotion/styled'
 import { styled as mstyled} from '@mui/material/styles';
+import uniqid from 'uniqid';
 
 
 import Table from '@mui/material/Table';
@@ -120,7 +121,7 @@ function Rig(props) {
                     if (device.status.enumName === "DISABLED") return null
                     return (
                       <TableRow
-                        key={device.id}
+                        key={`${uniqid()}`}
                         sx={{ 
                           fontSize: "calc(4px + 2vmin)",
                           '&:last-child td, &:last-child th': { 

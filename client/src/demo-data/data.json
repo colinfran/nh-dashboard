@@ -1,0 +1,561 @@
+{
+  "walletBalance": {
+    "active": true,
+    "currency": "BTC",
+    "totalBalance": "0.2",
+    "available": "0.00000000",
+    "debt": "0.00000000",
+    "pending": "0.00000000",
+    "btcRate": 1
+  },
+  "rigData": {
+    "minerStatuses": {
+      "MINING": 4
+    },
+    "rigTypes": {
+      "MANAGED": 4
+    },
+    "totalRigs": 4,
+    "totalProfitability": 0.0021520000000000002,
+    "groupPowerMode": "UNKNOWN",
+    "totalDevices": 1,
+    "devicesStatuses": {
+      "MINING": 1,
+      "DISABLED": 1
+    },
+    "unpaidAmount": "0.0044",
+    "path": "",
+    "btcAddress": "1234",
+    "nextPayoutTimestamp": "2023-02-07T08:00:00Z",
+    "lastPayoutTimestamp": "2022-09-16T00:00:37Z",
+    "miningRigGroups": [],
+    "miningRigs": [
+      {
+        "rigId": "0-nb3Z2MGpxUO9tS2puaAKrQ",
+        "type": "MANAGED",
+        "name": "MiningRig-1",
+        "statusTime": 1675746076752,
+        "joinTime": 1675745376,
+        "minerStatus": "MINING",
+        "groupName": "",
+        "unpaidAmount": "0.00000009",
+        "notifications": [
+          "RIG_OFFLINE",
+          "RIG_ERROR"
+        ],
+        "softwareVersions": "NHQM_v0.6.2.0,Excavator_v1.8.2.0_Build_1067",
+        "devices": [
+          {
+            "id": "32",
+            "name": "AMD Ryzen 9 3600X 12-Core Processor",
+            "deviceType": {
+              "enumName": "CPU",
+              "description": "CPU"
+            },
+            "status": {
+              "enumName": "DISABLED",
+              "description": "Disabled"
+            },
+            "temperature": -1,
+            "load": 23,
+            "revolutionsPerMinute": -1,
+            "revolutionsPerMinutePercentage": -1,
+            "powerMode": {
+              "enumName": "UNKNOWN",
+              "description": "Unknown"
+            },
+            "powerUsage": -1,
+            "speeds": [],
+            "intensity": {
+              "enumName": "LOW",
+              "description": "Low power mode"
+            },
+            "nhqm": ""
+          },
+          {
+            "id": "0",
+            "name": "GeForce RTX 3060",
+            "deviceType": {
+              "enumName": "NVIDIA",
+              "description": "Nvidia"
+            },
+            "status": {
+              "enumName": "MINING",
+              "description": "Mining"
+            },
+            "temperature": 5439548,
+            "load": 5963875,
+            "revolutionsPerMinute": 2119,
+            "revolutionsPerMinutePercentage": 75,
+            "powerMode": {
+              "enumName": "UNKNOWN",
+              "description": "Unknown"
+            },
+            "powerUsage": 115,
+            "speeds": [
+              {
+                "algorithm": "ETCHASH",
+                "title": "ETCHash",
+                "speed": "48.25000000",
+                "displaySuffix": "MH"
+              }
+            ],
+            "intensity": {
+              "enumName": "LOW",
+              "description": "Low power mode"
+            },
+            "nhqm": "V=1;CCC=975;CVC=718;CCM=975;MCC=9551;MCS=9251;MCD=300;MT=206;PLTDP=107;PLW=366;KTUMED=91289;OP=1;OPA=Extreme:4,High:3,Medium:2,Lite:1;"
+          }
+        ],
+        "cpuMiningEnabled": false,
+        "cpuExists": true,
+        "stats": [
+          {
+            "statsTime": 1675745566000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "AUTOLYKOS",
+              "description": "Autolykos"
+            },
+            "unpaidAmount": "0.00000004",
+            "difficulty": 4000000000,
+            "proxyId": 2,
+            "timeConnected": 1675745491912,
+            "xnsub": true,
+            "speedAccepted": 26.666666666666668,
+            "speedRejectedR1Target": 0,
+            "speedRejectedR2Stale": 0,
+            "speedRejectedR3Duplicate": 0,
+            "speedRejectedR4NTime": 0,
+            "speedRejectedR5Other": 0,
+            "speedRejectedTotal": 0,
+            "profitability": 0.0000028800000000000004
+          },
+          {
+            "statsTime": 1675746047000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "ETCHASH",
+              "description": "ETCHash"
+            },
+            "unpaidAmount": "0.00000005",
+            "difficulty": 0.1808664442417262,
+            "proxyId": 2,
+            "timeConnected": 1675745579099,
+            "xnsub": true,
+            "speedAccepted": 86.14982537405417,
+            "speedRejectedR1Target": 0,
+            "speedRejectedR2Stale": 0,
+            "speedRejectedR3Duplicate": 0,
+            "speedRejectedR4NTime": 0,
+            "speedRejectedR5Other": 0,
+            "speedRejectedTotal": 0,
+            "profitability": 0.000011520000000000002
+          }
+        ],
+        "profitability": 0.00001115,
+        "localProfitability": 0.00001115,
+        "rigPowerMode": "UNKNOWN",
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "0-nb3Z2MGpxUO9tS2puaAKrQ",
+        "type": "MANAGED",
+        "name": "MiningRig-2",
+        "statusTime": 1675746076752,
+        "joinTime": 1675745376,
+        "minerStatus": "MINING",
+        "groupName": "",
+        "unpaidAmount": "0.00000009",
+        "notifications": [
+          "RIG_OFFLINE",
+          "RIG_ERROR"
+        ],
+        "softwareVersions": "NHQM_v0.6.2.0,Excavator_v1.8.2.0_Build_1067",
+        "devices": [
+          {
+            "id": "32",
+            "name": "AMD Ryzen 9 3700X 12-Core Processor",
+            "deviceType": {
+              "enumName": "CPU",
+              "description": "CPU"
+            },
+            "status": {
+              "enumName": "DISABLED",
+              "description": "Disabled"
+            },
+            "temperature": -1,
+            "load": 23,
+            "revolutionsPerMinute": -1,
+            "revolutionsPerMinutePercentage": -1,
+            "powerMode": {
+              "enumName": "UNKNOWN",
+              "description": "Unknown"
+            },
+            "powerUsage": -1,
+            "speeds": [],
+            "intensity": {
+              "enumName": "LOW",
+              "description": "Low power mode"
+            },
+            "nhqm": ""
+          },
+          {
+            "id": "0",
+            "name": "GeForce RTX 3070",
+            "deviceType": {
+              "enumName": "NVIDIA",
+              "description": "Nvidia"
+            },
+            "status": {
+              "enumName": "MINING",
+              "description": "Mining"
+            },
+            "temperature": 5439548,
+            "load": 5963875,
+            "revolutionsPerMinute": 2119,
+            "revolutionsPerMinutePercentage": 75,
+            "powerMode": {
+              "enumName": "UNKNOWN",
+              "description": "Unknown"
+            },
+            "powerUsage": 130,
+            "speeds": [
+              {
+                "algorithm": "ETCHASH",
+                "title": "ETCHash",
+                "speed": "60.56000000",
+                "displaySuffix": "MH"
+              }
+            ],
+            "intensity": {
+              "enumName": "LOW",
+              "description": "Low power mode"
+            },
+            "nhqm": "V=1;CCC=975;CVC=718;CCM=975;MCC=9551;MCS=9251;MCD=300;MT=206;PLTDP=107;PLW=366;KTUMED=91289;OP=1;OPA=Extreme:4,High:3,Medium:2,Lite:1;"
+          }
+        ],
+        "cpuMiningEnabled": false,
+        "cpuExists": true,
+        "stats": [
+          {
+            "statsTime": 1675745566000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "AUTOLYKOS",
+              "description": "Autolykos"
+            },
+            "unpaidAmount": "0.00000004",
+            "difficulty": 4000000000,
+            "proxyId": 2,
+            "timeConnected": 1675745491912,
+            "xnsub": true,
+            "speedAccepted": 26.666666666666668,
+            "speedRejectedR1Target": 0,
+            "speedRejectedR2Stale": 0,
+            "speedRejectedR3Duplicate": 0,
+            "speedRejectedR4NTime": 0,
+            "speedRejectedR5Other": 0,
+            "speedRejectedTotal": 0,
+            "profitability": 0.0000028800000000000004
+          },
+          {
+            "statsTime": 1675746047000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "ETCHASH",
+              "description": "ETCHash"
+            },
+            "unpaidAmount": "0.00000005",
+            "difficulty": 0.1808664442417262,
+            "proxyId": 2,
+            "timeConnected": 1675745579099,
+            "xnsub": true,
+            "speedAccepted": 86.14982537405417,
+            "speedRejectedR1Target": 0,
+            "speedRejectedR2Stale": 0,
+            "speedRejectedR3Duplicate": 0,
+            "speedRejectedR4NTime": 0,
+            "speedRejectedR5Other": 0,
+            "speedRejectedTotal": 0,
+            "profitability": 0.000011520000000000002
+          }
+        ],
+        "profitability": 0.00001584,
+        "localProfitability": 0.00001584,
+        "rigPowerMode": "UNKNOWN",
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "0-nb3Z2MGpxUO9tS2puaAKrQ",
+        "type": "MANAGED",
+        "name": "MiningRig-3",
+        "statusTime": 1675746076752,
+        "joinTime": 1675745376,
+        "minerStatus": "MINING",
+        "groupName": "",
+        "unpaidAmount": "0.00000009",
+        "notifications": [
+          "RIG_OFFLINE",
+          "RIG_ERROR"
+        ],
+        "softwareVersions": "NHQM_v0.6.2.0,Excavator_v1.8.2.0_Build_1067",
+        "devices": [
+          {
+            "id": "32",
+            "name": "AMD Ryzen 9 3800X 12-Core Processor",
+            "deviceType": {
+              "enumName": "CPU",
+              "description": "CPU"
+            },
+            "status": {
+              "enumName": "DISABLED",
+              "description": "Disabled"
+            },
+            "temperature": -1,
+            "load": 23,
+            "revolutionsPerMinute": -1,
+            "revolutionsPerMinutePercentage": -1,
+            "powerMode": {
+              "enumName": "UNKNOWN",
+              "description": "Unknown"
+            },
+            "powerUsage": -1,
+            "speeds": [],
+            "intensity": {
+              "enumName": "LOW",
+              "description": "Low power mode"
+            },
+            "nhqm": ""
+          },
+          {
+            "id": "0",
+            "name": "GeForce RTX 3080",
+            "deviceType": {
+              "enumName": "NVIDIA",
+              "description": "Nvidia"
+            },
+            "status": {
+              "enumName": "MINING",
+              "description": "Mining"
+            },
+            "temperature": 5439548,
+            "load": 5963875,
+            "revolutionsPerMinute": 2119,
+            "revolutionsPerMinutePercentage": 75,
+            "powerMode": {
+              "enumName": "UNKNOWN",
+              "description": "Unknown"
+            },
+            "powerUsage": 220,
+            "speeds": [
+              {
+                "algorithm": "ETCHASH",
+                "title": "ETCHash",
+                "speed": "100.08000000",
+                "displaySuffix": "MH"
+              }
+            ],
+            "intensity": {
+              "enumName": "LOW",
+              "description": "Low power mode"
+            },
+            "nhqm": "V=1;CCC=975;CVC=718;CCM=975;MCC=9551;MCS=9251;MCD=300;MT=206;PLTDP=107;PLW=366;KTUMED=91289;OP=1;OPA=Extreme:4,High:3,Medium:2,Lite:1;"
+          }
+        ],
+        "cpuMiningEnabled": false,
+        "cpuExists": true,
+        "stats": [
+          {
+            "statsTime": 1675745566000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "AUTOLYKOS",
+              "description": "Autolykos"
+            },
+            "unpaidAmount": "0.00000004",
+            "difficulty": 4000000000,
+            "proxyId": 2,
+            "timeConnected": 1675745491912,
+            "xnsub": true,
+            "speedAccepted": 26.666666666666668,
+            "speedRejectedR1Target": 0,
+            "speedRejectedR2Stale": 0,
+            "speedRejectedR3Duplicate": 0,
+            "speedRejectedR4NTime": 0,
+            "speedRejectedR5Other": 0,
+            "speedRejectedTotal": 0,
+            "profitability": 0.0000028800000000000004
+          },
+          {
+            "statsTime": 1675746047000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "ETCHASH",
+              "description": "ETCHash"
+            },
+            "unpaidAmount": "0.00000005",
+            "difficulty": 0.1808664442417262,
+            "proxyId": 2,
+            "timeConnected": 1675745579099,
+            "xnsub": true,
+            "speedAccepted": 86.14982537405417,
+            "speedRejectedR1Target": 0,
+            "speedRejectedR2Stale": 0,
+            "speedRejectedR3Duplicate": 0,
+            "speedRejectedR4NTime": 0,
+            "speedRejectedR5Other": 0,
+            "speedRejectedTotal": 0,
+            "profitability": 0.000011520000000000002
+          }
+        ],
+        "profitability": 0.00002362 ,
+        "localProfitability": 0.00002362 ,
+        "rigPowerMode": "UNKNOWN",
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "0-nb3Z2MGpxUO9tS2puaAKrQ",
+        "type": "MANAGED",
+        "name": "MiningRig-4",
+        "statusTime": 1675746076752,
+        "joinTime": 1675745376,
+        "minerStatus": "MINING",
+        "groupName": "",
+        "unpaidAmount": "0.00000009",
+        "notifications": [
+          "RIG_OFFLINE",
+          "RIG_ERROR"
+        ],
+        "softwareVersions": "NHQM_v0.6.2.0,Excavator_v1.8.2.0_Build_1067",
+        "devices": [
+          {
+            "id": "32",
+            "name": "AMD Ryzen 9 3900X 12-Core Processor",
+            "deviceType": {
+              "enumName": "CPU",
+              "description": "CPU"
+            },
+            "status": {
+              "enumName": "DISABLED",
+              "description": "Disabled"
+            },
+            "temperature": -1,
+            "load": 23,
+            "revolutionsPerMinute": -1,
+            "revolutionsPerMinutePercentage": -1,
+            "powerMode": {
+              "enumName": "UNKNOWN",
+              "description": "Unknown"
+            },
+            "powerUsage": -1,
+            "speeds": [],
+            "intensity": {
+              "enumName": "LOW",
+              "description": "Low power mode"
+            },
+            "nhqm": ""
+          },
+          {
+            "id": "0",
+            "name": "GeForce RTX 3090",
+            "deviceType": {
+              "enumName": "NVIDIA",
+              "description": "Nvidia"
+            },
+            "status": {
+              "enumName": "MINING",
+              "description": "Mining"
+            },
+            "temperature": 5439548,
+            "load": 5963875,
+            "revolutionsPerMinute": 2119,
+            "revolutionsPerMinutePercentage": 75,
+            "powerMode": {
+              "enumName": "UNKNOWN",
+              "description": "Unknown"
+            },
+            "powerUsage": 285,
+            "speeds": [
+              {
+                "algorithm": "ETCHASH",
+                "title": "ETCHash",
+                "speed": "123.78000000",
+                "displaySuffix": "MH"
+              }
+            ],
+            "intensity": {
+              "enumName": "LOW",
+              "description": "Low power mode"
+            },
+            "nhqm": "V=1;CCC=975;CVC=718;CCM=975;MCC=9551;MCS=9251;MCD=300;MT=206;PLTDP=107;PLW=366;KTUMED=91289;OP=1;OPA=Extreme:4,High:3,Medium:2,Lite:1;"
+          }
+        ],
+        "cpuMiningEnabled": false,
+        "cpuExists": true,
+        "stats": [
+          {
+            "statsTime": 1675745566000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "AUTOLYKOS",
+              "description": "Autolykos"
+            },
+            "unpaidAmount": "0.00000004",
+            "difficulty": 4000000000,
+            "proxyId": 2,
+            "timeConnected": 1675745491912,
+            "xnsub": true,
+            "speedAccepted": 26.666666666666668,
+            "speedRejectedR1Target": 0,
+            "speedRejectedR2Stale": 0,
+            "speedRejectedR3Duplicate": 0,
+            "speedRejectedR4NTime": 0,
+            "speedRejectedR5Other": 0,
+            "speedRejectedTotal": 0,
+            "profitability": 0.0000028800000000000004
+          },
+          {
+            "statsTime": 1675746047000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "ETCHASH",
+              "description": "ETCHash"
+            },
+            "unpaidAmount": "0.00000005",
+            "difficulty": 0.1808664442417262,
+            "proxyId": 2,
+            "timeConnected": 1675745579099,
+            "xnsub": true,
+            "speedAccepted": 86.14982537405417,
+            "speedRejectedR1Target": 0,
+            "speedRejectedR2Stale": 0,
+            "speedRejectedR3Duplicate": 0,
+            "speedRejectedR4NTime": 0,
+            "speedRejectedR5Other": 0,
+            "speedRejectedTotal": 0,
+            "profitability": 0.000011520000000000002
+          }
+        ],
+        "profitability": 0.00002972 ,
+        "localProfitability": 0.00002972 ,
+        "rigPowerMode": "UNKNOWN",
+        "hasV4Rigs": false
+      }
+    ],
+    "rigNhmVersions": [
+      "NHQM_v0.6.2.0,Excavator_v1.8.2.0_Build_1067"
+    ],
+    "externalAddress": false,
+    "totalProfitabilityLocal": 0.0007194072126442746,
+    "pagination": {
+      "size": 25,
+      "page": 0,
+      "totalPageCount": 1
+    },
+    "previousDayEarnings": "",
+    "hasV4Rigs": false
+  },
+  "btcPrice": "22907.16000000",
+  "ethPrice": "1623.12000000"
+}

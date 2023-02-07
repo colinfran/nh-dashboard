@@ -1,0 +1,1641 @@
+[
+  {
+      "id": "ca36bb8a-da46-4715-8251-3af3c8e9feb5",
+      "amount": "0.02849797",
+      "amountReceived": "0.02849297",
+      "feeAmount": "0.00000500",
+      "address": "bc1q7e2rtx7ktrl27wt97avk42994v8ve8ctjk6kzm",
+      "txid": "a1f364e95acb6893609eea4cf1942eb8cdfab4124e03d29c1e8fe81da89be9a8",
+      "status": "COMPLETED",
+      "wallet": "FIREBLOCKS",
+      "accName": "TrustWallet",
+      "type": "WITHDRAWAL",
+      "time": 1663350524734,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "46238d26-65fc-40e5-bf58-61a17a12d650",
+      "amount": "0.00003347",
+      "feeAmount": "0.00000067",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663286707658,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5deadacc-75c9-45f2-b307-998b5a345b89",
+      "amount": "0.00003318",
+      "feeAmount": "0.00000066",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663272258116,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "8b94446a-f688-45f2-bb0b-a54b25bf1cd9",
+      "amount": "0.00016589",
+      "feeAmount": "0.00000332",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663229113046,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "cd827544-7049-49ef-b920-d1961b957120",
+      "amount": "0.00006799",
+      "feeAmount": "0.00000136",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663215104376,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "26bc0c01-d554-4d9c-af3d-4c8c2ffab425",
+      "amount": "0.00020025",
+      "feeAmount": "0.00000401",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663200652876,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "366d74f3-fa6c-49d8-80fc-73a66d8e3654",
+      "amount": "0.00019976",
+      "feeAmount": "0.00000400",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663186259526,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "bf5843e6-37f7-4b86-80ef-390339d0c1c7",
+      "amount": "0.00019806",
+      "feeAmount": "0.00000396",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663172048163,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "a173f9bc-93a3-4acd-94c2-c5af3844a4e4",
+      "amount": "0.00019051",
+      "feeAmount": "0.00000381",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663157510195,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c60c24da-820c-45cd-87f6-d8305f71cf36",
+      "amount": "0.00018342",
+      "feeAmount": "0.00000367",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663143144184,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "0ba31fef-4e7d-4453-8d19-81f8783fbc20",
+      "amount": "0.00005658",
+      "feeAmount": "0.00000113",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663128695621,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "180dbbc7-d92b-4d45-a5b8-ef0a19f56ee5",
+      "amount": "0.00018457",
+      "feeAmount": "0.00000369",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663114241027,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "d1f216c1-9a21-4fcc-b76b-08e25afdc378",
+      "amount": "0.00018645",
+      "feeAmount": "0.00000373",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663099948115,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5466fcd3-18c3-4621-81c1-9dc2deb5b97e",
+      "amount": "0.00020205",
+      "feeAmount": "0.00000404",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663085642209,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "9fcccf63-f1b2-4250-9082-f7a47639d382",
+      "amount": "0.00018981",
+      "feeAmount": "0.00000380",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663071300353,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "3a0b45c5-bfe8-410d-b589-6e40211f11a4",
+      "amount": "0.00018335",
+      "feeAmount": "0.00000367",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663056663174,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "9c04392c-c252-4d37-ac13-c75fea9110b0",
+      "amount": "0.00004821",
+      "feeAmount": "0.00000096",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663042236403,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "322503ee-e880-41ed-936c-895d39cb4b11",
+      "amount": "0.00017492",
+      "feeAmount": "0.00000350",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663027709119,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "f732cce6-4494-4b08-859a-caa5fc4b5ff7",
+      "amount": "0.00018978",
+      "feeAmount": "0.00000380",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1663013516540,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "7c0ddda3-9f0b-43ef-862c-df68c9202f23",
+      "amount": "0.00018684",
+      "feeAmount": "0.00000374",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662999143081,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "822bbb15-dfdf-469b-81a8-f8cae7b28d5f",
+      "amount": "0.00019488",
+      "feeAmount": "0.00000390",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662984546094,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "40e09ad7-9df4-47bb-bc4c-2d490fe78c18",
+      "amount": "0.00019241",
+      "feeAmount": "0.00000385",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662970265336,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "f9087dc8-ba26-4baa-8e14-5bc6901ca976",
+      "amount": "0.00006313",
+      "feeAmount": "0.00000126",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662955906612,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "e13bf4be-6066-4409-bd87-590754925963",
+      "amount": "0.00016320",
+      "feeAmount": "0.00000326",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662941410889,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5ff5c216-e9ec-413b-a9a3-aa106ab13c6e",
+      "amount": "0.00016081",
+      "feeAmount": "0.00000322",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662927121823,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "59961698-3562-4256-b336-2d76c92aafac",
+      "amount": "0.00015832",
+      "feeAmount": "0.00000317",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662912592350,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "fca44579-6615-43c6-9282-a3a128253906",
+      "amount": "0.00015172",
+      "feeAmount": "0.00000303",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662898140056,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c9281f0e-d739-4714-be50-6407e7ec2cb8",
+      "amount": "0.00015769",
+      "feeAmount": "0.00000315",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662883918862,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "272706b4-d2d0-4d94-af7a-59ceea6c0c05",
+      "amount": "0.00005642",
+      "feeAmount": "0.00000113",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662869446459,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "4618f989-ac59-4bf9-8473-d8f12838ab24",
+      "amount": "0.00018720",
+      "feeAmount": "0.00000374",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662854962607,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "375caa9a-f54c-4f4f-aaed-03555929aa48",
+      "amount": "0.00018156",
+      "feeAmount": "0.00000363",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662840498211,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "173b9484-9c4c-4831-b641-12396c85689a",
+      "amount": "0.00019239",
+      "feeAmount": "0.00000385",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662826349686,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "0ab9a777-e370-40b4-99e8-dbd6993f6d26",
+      "amount": "0.00019683",
+      "feeAmount": "0.00000394",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662811952077,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c92714cf-b041-4ed5-b299-e4c65a96b6dc",
+      "amount": "0.00019484",
+      "feeAmount": "0.00000390",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662797500891,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "899850a7-4a1a-4652-b1ee-a22fb1810274",
+      "amount": "0.00006318",
+      "feeAmount": "0.00000126",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662783061030,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "f85fca79-ef60-40bf-a46c-8b76c5054f27",
+      "amount": "0.00018581",
+      "feeAmount": "0.00000372",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662768626314,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "63fe8629-2b97-46b2-a25a-fe77de6cb643",
+      "amount": "0.00019230",
+      "feeAmount": "0.00000385",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662754331111,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "e020aead-2bbd-4aaf-b2ee-2318b59185a8",
+      "amount": "0.00020422",
+      "feeAmount": "0.00000408",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662739907682,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "b3ee07bb-eaed-4385-8533-a92614f519e8",
+      "amount": "0.00020092",
+      "feeAmount": "0.00000402",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662725515617,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5bb43f12-8ceb-4742-a174-5b52a86a29c1",
+      "amount": "0.00019776",
+      "feeAmount": "0.00000396",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc90:58d3:2dc0:1021\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662711056211,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c6691227-7fef-4692-8df1-5b5a828c85cf",
+      "amount": "0.00006112",
+      "feeAmount": "0.00000122",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc90:58d3:2dc0:1021\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662696498775,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "03795e6c-ef4e-478f-be4f-053626e1ce9f",
+      "amount": "0.00019459",
+      "feeAmount": "0.00000389",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc90:58d3:2dc0:1021\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662682257110,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c66d5ce6-7c75-4cf3-b696-cf3a1bcbdac8",
+      "amount": "0.00021208",
+      "feeAmount": "0.00000424",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc90:58d3:2dc0:1021\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662667980800,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "8e002efa-18dc-4502-96c5-fe65568481f7",
+      "amount": "0.00020750",
+      "feeAmount": "0.00000415",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc90:58d3:2dc0:1021\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662653613835,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "db7ac552-4cb1-4f1a-9aa9-b33ab01dff25",
+      "amount": "0.00020274",
+      "feeAmount": "0.00000405",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc90:58d3:2dc0:1021\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662639048515,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5f18a756-fda6-4226-a967-0b8101730143",
+      "amount": "0.00020058",
+      "feeAmount": "0.00000401",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662624733345,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "2481af86-af6a-4660-bd48-ad176ea4412f",
+      "amount": "0.00006495",
+      "feeAmount": "0.00000130",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662610176994,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5e55c827-f217-4a84-bf5c-d580b6d55cd5",
+      "amount": "0.00020208",
+      "feeAmount": "0.00000404",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662595753811,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "196b52c4-275e-4972-8f44-0d7a6ad1a25f",
+      "amount": "0.00020297",
+      "feeAmount": "0.00000406",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662581506442,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "ba3b76c6-37ce-41fc-9852-7a8d9956b4b2",
+      "amount": "0.00019911",
+      "feeAmount": "0.00000398",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662567220579,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "9606efac-aa7f-4bd5-a0c5-f06be7868782",
+      "amount": "0.00019900",
+      "feeAmount": "0.00000398",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662552665546,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "574ff84c-3815-46e9-b977-f52ef47ffc48",
+      "amount": "0.00018895",
+      "feeAmount": "0.00000378",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662538306254,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "4a84b16d-c687-4ffa-b4ca-f0e9f4ded67e",
+      "amount": "0.00006808",
+      "feeAmount": "0.00000136",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662523853903,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "56180688-1ae8-480c-a119-4f4240570165",
+      "amount": "0.00019515",
+      "feeAmount": "0.00000390",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662509493796,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c4e5234f-daf5-4f75-a6b3-ac0b59923cb9",
+      "amount": "0.00020781",
+      "feeAmount": "0.00000416",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662495005231,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "7b6374d5-a0c9-41fa-a2b1-b41719cff3e5",
+      "amount": "0.00019546",
+      "feeAmount": "0.00000391",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662480694292,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "a20c776f-20c0-4a06-855d-8a16e761915a",
+      "amount": "0.00020005",
+      "feeAmount": "0.00000400",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662466340510,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "4ea90d53-69ca-458c-b397-863f5aae1296",
+      "amount": "0.00021283",
+      "feeAmount": "0.00000426",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662451997132,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "9e500fa5-bcba-498d-b0ac-21b17e712f5c",
+      "amount": "0.00007081",
+      "feeAmount": "0.00000142",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662437484771,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "7b906eff-ca43-48ae-96be-2c49edab8bae",
+      "amount": "0.00018764",
+      "feeAmount": "0.00000375",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662423012248,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "a4ec1828-8f1a-4905-b853-67499eef420f",
+      "amount": "0.00019956",
+      "feeAmount": "0.00000399",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662408630645,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "a89ac5a8-d8db-496e-9c29-7a48fbba187d",
+      "amount": "0.00019600",
+      "feeAmount": "0.00000392",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662394242057,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "afd98251-0af6-4923-940f-45b7c6c669be",
+      "amount": "0.00019913",
+      "feeAmount": "0.00000398",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662379909039,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "f13d1c29-2ae4-465b-af14-3bedf98c5931",
+      "amount": "0.00019924",
+      "feeAmount": "0.00000398",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662365483292,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "556242d5-b9d1-4f52-974a-428206849772",
+      "amount": "0.00006001",
+      "feeAmount": "0.00000120",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662351079201,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "7856600c-e146-48f2-b833-2973acd93ffd",
+      "amount": "0.00018691",
+      "feeAmount": "0.00000374",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662336630930,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "48df1f26-fd26-456e-b4a3-85d7e8abc21d",
+      "amount": "0.00018932",
+      "feeAmount": "0.00000379",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662322287338,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "4e5979c2-6da3-40d1-8569-4b55b4b7b9d5",
+      "amount": "0.00019536",
+      "feeAmount": "0.00000391",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662307900670,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "49c1eebb-c4bd-4622-88e3-ea90cc0642a9",
+      "amount": "0.00019097",
+      "feeAmount": "0.00000382",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662293434676,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "1d0b3de8-2fe5-464d-836c-af650c581c24",
+      "amount": "0.00018965",
+      "feeAmount": "0.00000379",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662279111730,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "7723b8bc-1a3f-4c1f-9919-a96f4bcb923c",
+      "amount": "0.00006108",
+      "feeAmount": "0.00000122",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662264695723,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "29283524-80d0-4228-857f-f716ef1f27ef",
+      "amount": "0.00017951",
+      "feeAmount": "0.00000359",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662250271613,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "932c404f-a99b-4c0c-9ea0-4419fccf8c86",
+      "amount": "0.00019114",
+      "feeAmount": "0.00000382",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662235843012,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "040aeff1-f8a3-40ab-a0aa-6bbc695a5aaf",
+      "amount": "0.00018754",
+      "feeAmount": "0.00000375",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662221577898,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "291f6957-3c8d-4437-81e4-7589b91b427c",
+      "amount": "0.00019092",
+      "feeAmount": "0.00000382",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662207125091,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "1bdca098-e51e-4629-87ba-f6de9a54028a",
+      "amount": "0.00018855",
+      "feeAmount": "0.00000377",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662192488744,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "19fb08a4-1342-4f56-85aa-1999af77a3a1",
+      "amount": "0.00006282",
+      "feeAmount": "0.00000126",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc39:69a:f67b:bdf0\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662178284780,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "cceb63e8-9b31-417b-a80a-6bc94f0914e8",
+      "amount": "0.00017697",
+      "feeAmount": "0.00000354",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc39:69a:f67b:bdf0\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662163872759,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "01d32084-dafd-48ba-9652-cfeaaaa80667",
+      "amount": "0.00019023",
+      "feeAmount": "0.00000380",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc39:69a:f67b:bdf0\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662149502278,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "034c0ca9-3062-45b8-86ce-fe9b25cb4a0e",
+      "amount": "0.00019938",
+      "feeAmount": "0.00000399",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc39:69a:f67b:bdf0\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662135121276,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "0e76f553-f531-4e86-88a1-dc1371902dbb",
+      "amount": "0.00019304",
+      "feeAmount": "0.00000386",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc39:69a:f67b:bdf0\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662120667798,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "7c0b105b-7e48-4fb5-a939-c5139c673f24",
+      "amount": "0.00017497",
+      "feeAmount": "0.00000350",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc39:69a:f67b:bdf0\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662106292215,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c10b3973-96f3-42eb-92d3-704fecfce05d",
+      "amount": "0.00003455",
+      "feeAmount": "0.00000069",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc39:69a:f67b:bdf0\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662091506652,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "ccc36588-5c5d-40ee-afae-1ecdb966adae",
+      "amount": "0.00018535",
+      "feeAmount": "0.00000371",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc39:69a:f67b:bdf0\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662077076296,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "dd10b747-d059-4fd9-84c7-37d94b974108",
+      "amount": "0.00018731",
+      "feeAmount": "0.00000375",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc39:69a:f67b:bdf0\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662063083489,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "900b635c-8636-47b5-988c-c0ce9a1c5cb5",
+      "amount": "0.00018708",
+      "feeAmount": "0.00000374",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:fc39:69a:f67b:bdf0\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662048690395,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "9c3cd381-d8f8-4362-bb14-7ee0c50dda80",
+      "amount": "0.00018579",
+      "feeAmount": "0.00000372",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662034289552,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "d3d0b41f-c256-47c2-918d-b354a8c87ae5",
+      "amount": "0.00017973",
+      "feeAmount": "0.00000359",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662019775569,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "edbf1d21-edcb-4191-9253-8c7b64c55a40",
+      "amount": "0.00006244",
+      "feeAmount": "0.00000125",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1662005386008,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "f2eaa5d6-b379-438f-8d86-38597f5d24ac",
+      "amount": "0.00018056",
+      "feeAmount": "0.00000361",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661990976193,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "e760e75e-b8a3-4457-82a9-1053fa9dfa24",
+      "amount": "0.00018509",
+      "feeAmount": "0.00000370",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661976650098,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "8c71ed17-9b2e-4a20-a935-6f7298b58a4f",
+      "amount": "0.00018432",
+      "feeAmount": "0.00000369",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661962226852,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "ec1fde0d-a749-4183-a41b-001f031d8283",
+      "amount": "0.00019066",
+      "feeAmount": "0.00000381",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661947960966,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "7f9d8990-b88a-4182-8092-f77a8e44d465",
+      "amount": "0.00019500",
+      "feeAmount": "0.00000390",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661933394294,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "d5ee97e3-adb4-45c7-a590-b8931dffc27b",
+      "amount": "0.00006638",
+      "feeAmount": "0.00000133",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661919069615,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "ba5e7ced-93d9-4c6e-90bb-73e316ff9d6f",
+      "amount": "0.00017918",
+      "feeAmount": "0.00000358",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661904613100,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "a6a48f8b-2afa-41eb-a0ae-f1439382fdd2",
+      "amount": "0.00017365",
+      "feeAmount": "0.00000347",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661890301276,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5ddb88c4-ff6b-4c81-b41e-8af469a87ef8",
+      "amount": "0.00018624",
+      "feeAmount": "0.00000372",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661876506190,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "311bf677-a587-4e05-9ee2-9964fb2fae20",
+      "amount": "0.00018473",
+      "feeAmount": "0.00000369",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661861441908,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "dc41f799-40c1-49c9-975e-98a847b42a48",
+      "amount": "0.00018976",
+      "feeAmount": "0.00000380",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661847537901,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5c267e80-4432-40d6-a3d5-e455e7445360",
+      "amount": "0.00005391",
+      "feeAmount": "0.00000108",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661832623477,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c37b0a21-7999-4046-bf34-f4da5b2d76fd",
+      "amount": "0.00017177",
+      "feeAmount": "0.00000344",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661818595136,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5887ff5f-2951-431a-a3db-a0cd35e8da3a",
+      "amount": "0.00018340",
+      "feeAmount": "0.00000367",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661804179945,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "46223f7f-e87f-403e-afc9-e8fbcf9da8cd",
+      "amount": "0.00019047",
+      "feeAmount": "0.00000381",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661790353338,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "24b1ed62-98a1-4115-9d54-0175ed5e8698",
+      "amount": "0.00017028",
+      "feeAmount": "0.00000341",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661775219207,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c2c4e965-a96a-4aae-998a-430cdb8a04c5",
+      "amount": "0.00016794",
+      "feeAmount": "0.00000336",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661761375732,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "85f0b2b2-34dc-4fcb-b5bf-2d30df6ee084",
+      "amount": "0.00005735",
+      "feeAmount": "0.00000115",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661746583641,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "4ae4d8f4-66a3-4eda-be6c-c91106aaca02",
+      "amount": "0.00017217",
+      "feeAmount": "0.00000344",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661732466914,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "d381e0be-c796-4d69-883b-d301c6227dbf",
+      "amount": "0.00017265",
+      "feeAmount": "0.00000345",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661717662543,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "f5ebacf4-8a54-4464-837e-6c41f2e51dec",
+      "amount": "0.00017713",
+      "feeAmount": "0.00000354",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661703591737,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "777df0fa-9453-4609-9668-5d6e5c6fb221",
+      "amount": "0.00018057",
+      "feeAmount": "0.00000361",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661689167987,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "2b25a24c-81a8-4dda-9063-d8f5c27032f8",
+      "amount": "0.00017818",
+      "feeAmount": "0.00000356",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661674652238,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "51ee61d5-ba92-4058-9393-cf07d87b2c26",
+      "amount": "0.00004955",
+      "feeAmount": "0.00000099",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661660195756,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "58740256-7267-427e-9406-6afecb1be9d3",
+      "amount": "0.00016891",
+      "feeAmount": "0.00000338",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661645734890,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "a2d5d25e-ff69-4d48-9984-1e39a903236d",
+      "amount": "0.00018176",
+      "feeAmount": "0.00000364",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661631558230,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "8c53b607-6c02-401c-8333-77dfcc492571",
+      "amount": "0.00017602",
+      "feeAmount": "0.00000352",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661616879947,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c4aefccc-0ba8-44f9-9e61-743b90bcc46e",
+      "amount": "0.00018304",
+      "feeAmount": "0.00000366",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661602445485,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "39f5e76c-ce18-4a0c-8060-9ecbd688282c",
+      "amount": "0.00018123",
+      "feeAmount": "0.00000362",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661588001753,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "43285290-fba6-49f6-974b-fd0e62473ea8",
+      "amount": "0.00005544",
+      "feeAmount": "0.00000111",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661573702911,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "cdac37db-9f5c-4277-9005-29fcb1eb35c4",
+      "amount": "0.00016598",
+      "feeAmount": "0.00000332",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661559010077,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "69649246-2d58-4514-9e50-ba56178f4ef5",
+      "amount": "0.00017464",
+      "feeAmount": "0.00000349",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661545166423,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "2a0e55ef-cdae-4620-8845-9df58250c4b4",
+      "amount": "0.00019328",
+      "feeAmount": "0.00000387",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661530389807,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "9d691755-b2e4-4926-ad5d-05f6cd21cca7",
+      "amount": "0.00019357",
+      "feeAmount": "0.00000387",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661516494387,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "f9aefcc6-5248-48c3-9baa-df5086c2cb2f",
+      "amount": "0.00019485",
+      "feeAmount": "0.00000390",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661501444018,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "0c15b1c6-10d4-4133-8395-c3ad067266ea",
+      "amount": "0.00005788",
+      "feeAmount": "0.00000116",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661486851099,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "46b4cf96-0e35-4374-9c92-9138a6a8a90d",
+      "amount": "0.00017739",
+      "feeAmount": "0.00000355",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661472334387,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "8ba45497-2ff7-46e7-9927-1b2813344c7f",
+      "amount": "0.00019471",
+      "feeAmount": "0.00000389",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661458104222,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "ffe1d093-3564-486e-8627-d761e1bb2eab",
+      "amount": "0.00018977",
+      "feeAmount": "0.00000380",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661443555185,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "2a54d039-fc8c-4cf2-9b1c-0e44251185b9",
+      "amount": "0.00019785",
+      "feeAmount": "0.00000396",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661429223777,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "27a36771-0d47-4552-b8d3-797ca74d03f5",
+      "amount": "0.00018251",
+      "feeAmount": "0.00000365",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661414817666,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "f4261fd6-57dd-4d07-8791-0a23b3f51dce",
+      "amount": "0.00005445",
+      "feeAmount": "0.00000109",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661400405602,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c895a48b-6216-400b-bab6-46cc4d83ecfb",
+      "amount": "0.00015912",
+      "feeAmount": "0.00000318",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661386288095,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "54646a38-1d07-4853-9d4b-effbda80f5eb",
+      "amount": "0.00018244",
+      "feeAmount": "0.00000365",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661371500476,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "ef7fa90e-3a11-4d39-8e89-5c226d1f872f",
+      "amount": "0.00018258",
+      "feeAmount": "0.00000365",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661357327594,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "152b2960-232f-49e6-a0eb-ea437dea8c61",
+      "amount": "0.00018452",
+      "feeAmount": "0.00000369",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661342812070,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "2df7682e-49e8-435a-8edd-71719d6e6489",
+      "amount": "0.00018328",
+      "feeAmount": "0.00000367",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661328269553,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "54eadf7b-c5cc-4f13-b76a-48fc4d9f5709",
+      "amount": "0.00005293",
+      "feeAmount": "0.00000106",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661314018209,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "4a163427-0e46-43f4-87f7-d20c5fcbc534",
+      "amount": "0.00017357",
+      "feeAmount": "0.00000347",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661299548863,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "240903d0-9d5a-4275-a022-d3b621446c7d",
+      "amount": "0.00017572",
+      "feeAmount": "0.00000351",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661285309833,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "405abe35-fe0e-41c1-83eb-75cb30546680",
+      "amount": "0.00018824",
+      "feeAmount": "0.00000376",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661270719686,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "10d142ff-83fc-43fc-9e06-3f9c94c647b3",
+      "amount": "0.00018884",
+      "feeAmount": "0.00000378",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661256693989,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c36d746a-c926-4bed-9e25-43f26ed44f9d",
+      "amount": "0.00017966",
+      "feeAmount": "0.00000359",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661241980784,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c4d6f753-0696-49eb-8175-10d5b2de13af",
+      "amount": "0.00005446",
+      "feeAmount": "0.00000109",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661227526932,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "aa889035-8be2-49af-a48e-8b966542edc3",
+      "amount": "0.00016963",
+      "feeAmount": "0.00000339",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661213339048,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "7886251d-331f-4d23-83ec-56fd46631320",
+      "amount": "0.00019305",
+      "feeAmount": "0.00000386",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661198909930,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "488dd845-9391-4f97-9c22-c0319acdfdf3",
+      "amount": "0.00019314",
+      "feeAmount": "0.00000386",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661184569712,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "b100583a-3bf3-4421-a6de-0e0e550556a1",
+      "amount": "0.00018583",
+      "feeAmount": "0.00000372",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661170283293,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "4be84837-2310-486d-a12b-4bf02b144257",
+      "amount": "0.00017508",
+      "feeAmount": "0.00000350",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661155951348,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "a3236cdd-c5ae-4b99-9adf-b330118417db",
+      "amount": "0.00007985",
+      "feeAmount": "0.00000160",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661141012641,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5d23a30e-655a-47ce-9e2b-18be90f87365",
+      "amount": "0.00017281",
+      "feeAmount": "0.00000346",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661126444822,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "e971f473-e9e7-4d2e-b785-848ba4acccca",
+      "amount": "0.00019899",
+      "feeAmount": "0.00000398",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661112810302,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "ed4c64f6-db18-4b2d-831e-b1725650da3d",
+      "amount": "0.00018650",
+      "feeAmount": "0.00000373",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661098251273,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "baa1494a-286d-43da-bbde-3ec0bccef98f",
+      "amount": "0.00018987",
+      "feeAmount": "0.00000380",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661083796532,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "396e13f7-2ab5-47c0-b78e-e488eab607de",
+      "amount": "0.00018076",
+      "feeAmount": "0.00000362",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661069420451,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "ba9346a7-faf9-45be-ba92-4b6b502be7ac",
+      "amount": "0.05000000",
+      "amountReceived": "0.04999500",
+      "feeAmount": "0.00000500",
+      "address": "bc1q7e2rtx7ktrl27wt97avk42994v8ve8ctjk6kzm",
+      "txid": "211ee1ff9a3827055900cd9f1f3112c0a98495eae058fc0dbe52a16aac905047",
+      "status": "COMPLETED",
+      "wallet": "FIREBLOCKS",
+      "accName": "TrustWallet",
+      "type": "WITHDRAWAL",
+      "time": 1661068250882,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "bed53917-2eae-4bb6-ba14-9fc480faad91",
+      "amount": "0.00005077",
+      "feeAmount": "0.00000102",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661054989616,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "3754ccd8-2844-4439-a5da-8a5157314043",
+      "amount": "0.00018250",
+      "feeAmount": "0.00000365",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661040580304,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5ff0bd1b-58cb-4dfb-a870-37a46b04c201",
+      "amount": "0.00019741",
+      "feeAmount": "0.00000395",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661026201902,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "53f19617-9c0c-4023-834a-44b1aeafbac5",
+      "amount": "0.00019687",
+      "feeAmount": "0.00000394",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1661011769576,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "0abefd43-d428-42d2-a738-1387c2293462",
+      "amount": "0.00020281",
+      "feeAmount": "0.00000406",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660997309630,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "64bd174a-5e0f-4235-a1a2-ea7df18297a8",
+      "amount": "0.00018093",
+      "feeAmount": "0.00000362",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660982949092,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "dbffbf15-0d6f-4c59-9815-c7a9d04d3511",
+      "amount": "0.00006167",
+      "feeAmount": "0.00000123",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"2601:645:4500:e00:8009:c0c0:bc68:49e7\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660968591615,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "a1b8cae5-37cc-4155-a3e5-df77a7bf7a71",
+      "amount": "0.00019339",
+      "feeAmount": "0.00000387",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660954088580,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "8863b6f0-2025-4b66-b301-f6cab39bc254",
+      "amount": "0.00019492",
+      "feeAmount": "0.00000390",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660939737768,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "0aaf2286-d573-4310-abdc-f9d38a6aebf5",
+      "amount": "0.00020324",
+      "feeAmount": "0.00000406",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660925395252,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "67a426a8-db9c-4b97-9e88-5fb59797a2fd",
+      "amount": "0.00020506",
+      "feeAmount": "0.00000410",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660910891518,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "6b9385c7-3a0e-4273-9f26-06159c05b39d",
+      "amount": "0.00019401",
+      "feeAmount": "0.00000388",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660896762853,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "5c143095-46b0-47c4-90ee-6731149bc82c",
+      "amount": "0.00006286",
+      "feeAmount": "0.00000126",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660882297583,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "024c8ee7-418b-4f80-b580-b0e8f1a148e8",
+      "amount": "0.00018714",
+      "feeAmount": "0.00000374",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660867920165,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "fc08da11-f030-4759-8443-fa944f99fd7a",
+      "amount": "0.00019828",
+      "feeAmount": "0.00000397",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660853508324,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "f58df2f2-7c57-442c-827c-904232d4ce49",
+      "amount": "0.00019898",
+      "feeAmount": "0.00000398",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660838974641,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "508c6aa2-a437-420c-ae8c-66ad46a0a4ed",
+      "amount": "0.00019711",
+      "feeAmount": "0.00000394",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660824796939,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "54f58459-f6c2-4cd5-aa2e-8f56a6951266",
+      "amount": "0.00018839",
+      "feeAmount": "0.00000377",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660810252194,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "0e530cb0-b177-489b-a134-6274460c0674",
+      "amount": "0.00006404",
+      "feeAmount": "0.00000128",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660795882922,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c744cda1-4251-4b3e-9e40-a05b1b744c63",
+      "amount": "0.00018048",
+      "feeAmount": "0.00000361",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660781159974,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "1d8cee3e-8183-4515-9f3b-2705dd365946",
+      "amount": "0.00018951",
+      "feeAmount": "0.00000379",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660767077292,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "d3ff682b-a350-4074-98e8-1a0f1585a86e",
+      "amount": "0.00019423",
+      "feeAmount": "0.00000388",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660752618919,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "c2dfe291-6307-4556-9af9-d594c7ed59d8",
+      "amount": "0.00018633",
+      "feeAmount": "0.00000373",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660738179332,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "7a6563e6-24f3-47e2-8098-0529881b3c1e",
+      "amount": "0.00019161",
+      "feeAmount": "0.00000383",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660723950870,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "094252dc-5569-419f-9d79-b3d77f2aea51",
+      "amount": "0.00005960",
+      "feeAmount": "0.00000119",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660709312137,
+      "activityCurrency": "BTC"
+  },
+  {
+      "id": "68f5cf4e-7eb7-41a1-a2fd-00a7ccb10984",
+      "amount": "0.00017893",
+      "feeAmount": "0.00000358",
+      "feeMeta": "{\"geoInfo\":{\"ip\":\"98.42.222.91\",\"country\":\"US\",\"state\":\"CA\",\"src\":\"IP\"}}",
+      "type": "MINING",
+      "time": 1660694977710,
+      "activityCurrency": "BTC"
+  }
+]
