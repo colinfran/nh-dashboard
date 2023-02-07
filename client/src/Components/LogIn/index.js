@@ -12,8 +12,6 @@ const LogIn = (props) => {
   const inputPasswordRef = useRef(null);
 
   const validateLogin = async () => {
-    console.log(inputEmailRef.current.value)
-    console.log(inputPasswordRef.current.value)
     if (!inputEmailRef.current.value ) {
       return setErrorOccured(true)
     } else if (!inputPasswordRef.current.value) {

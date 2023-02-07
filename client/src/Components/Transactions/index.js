@@ -33,7 +33,6 @@ function Transactions(props) {
       oldArray.pop()
       const newArray = json.slice(oldArray.length, oldArray.length+10)
       const transactionsArray = [...oldArray, ...newArray]
-      // console.log(transactionsArray)
       props.setTransactions({transactions: transactionsArray})
       setLoadingTransactions(false)
     }else{
@@ -44,7 +43,6 @@ function Transactions(props) {
           const oldArray = [...props.transactions.transactions]
           oldArray.pop()
           const transactionsArray = [...oldArray, ...data.transactions]
-          // console.log(transactionsArray)
           props.setTransactions({transactions: transactionsArray})
           setLoadingTransactions(false)
         });
@@ -57,7 +55,6 @@ function Transactions(props) {
   const {transactions} = props
   const transactionsList = transactions?.transactions?.map((transaction, idx) => {
     if (idx === transactions.transactions.length-1) return null
-    // console.log(transactions)
     if (transactions.transactions.length === 0) return null
     return (<Transaction key={`${uniqid()}`} transaction={transaction} {...props}/>)
   })
