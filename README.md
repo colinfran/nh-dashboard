@@ -2,6 +2,12 @@
 # nh-dashboard
 A simple NiceHash dashboard that displays:
 
+## Demo
+https://nh-dashboard-d4tym.ondigitalocean.app/demo
+<br/><br/>
+
+<img src="./client/public/screenshot.png" alt="screenshot of nh-dashboard app" style="width: 50%"/>
+<br/><br/>
 **Overview**
 - Daily mining profits
 - BTC and ETH current price
@@ -30,9 +36,6 @@ A simple NiceHash dashboard that displays:
 Built with React.js and Express.js using NiceHash API.
 <br/>
 
-## Demo
-https://nh-dashboard-d4tym.ondigitalocean.app/demo
-<br/><br/>
 
 ### Getting Started
 
