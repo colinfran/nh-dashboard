@@ -31,7 +31,7 @@ Built with React.js and Express.js using NiceHash API.
 <br/>
 
 ## Demo
-https://nh-dashboard-d4tym.ondigitalocean.app/
+https://nh-dashboard-d4tym.ondigitalocean.app/demo
 <br/><br/>
 
 ### Getting Started
