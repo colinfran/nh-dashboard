@@ -31,13 +31,10 @@ function App() {
   const isVisible = usePageVisibility();
 
   let isLoggedInStartup = false
-  if (localStorage.getItem("isLoggedIn") === null) {
-    localStorage.setItem("isLoggedIn", false)
-  }
-  else if (localStorage.getItem("isLoggedIn") === "true") {
-    isLoggedInStartup = true
-  } else {
+  if (localStorage.getItem("userSession") === null) {
     isLoggedInStartup = false
+  }else{
+    isLoggedInStartup = true
   }
 
   localStorage.getItem("mytime")

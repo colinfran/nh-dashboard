@@ -1,5 +1,7 @@
 import React, {useState, useRef} from "react";
 import { Link } from "react-router-dom";
+import uniqid from 'uniqid';
+
 import nhlogo from "./nhlogo.png"
 import "./index.css"
 
@@ -31,6 +33,7 @@ const LogIn = (props) => {
         .then((data) => {
           if (data.loggedIn){
             props.setIsLoggedIn(true)
+            localStorage.setItem("userSession", uniqid())
           }else{
             setErrorOccured(true)
           }
