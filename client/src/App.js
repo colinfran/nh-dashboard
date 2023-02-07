@@ -83,6 +83,8 @@ function App() {
 
   const fetchWalletDataDemo = async () => {
     setTransactions({transactions: demoTransactions.slice(0,10)});
+    console.log({transactions: demoTransactions.slice(0,10)});
+
   };
 
   // get data from backend, fetch every 45 seconds
