@@ -178,7 +178,7 @@ function App() {
         style={{
           display: "flex",
           flexDirection: "row",
-          backgroundColor: "#49515F",
+          backgroundColor: "#121212",
           justifyContent: "center",
           alignItems: "center",
         }}

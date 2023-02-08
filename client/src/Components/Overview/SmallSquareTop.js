@@ -22,6 +22,7 @@ const TextWrapper = styled.div`
 
 const BalanceText = styled.div`
   font-size: calc(4px + 1.75vmin);
+  color: #a0a0a0;
 `
 
 const UsdValue = styled.div`

@@ -31,7 +31,7 @@ const TablePaper = mstyled(Paper)(({ theme }) => ({
   borderTopLeftRadius: 0
 }));
 
-const OuterContainer = mstyled(Paper)(({ theme, openstyle }) => ({
+const OuterContainer = mstyled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
@@ -39,7 +39,7 @@ const OuterContainer = mstyled(Paper)(({ theme, openstyle }) => ({
   color: theme.palette.text.secondary,
   height: "40%",
   marginTop: 16,
-  ...openstyle
+  // ...openstyle
 }));
 
 
@@ -50,6 +50,7 @@ function Rig(props) {
   const [onlineDevices, setOnlineDevices] = useState(0);
   const [totalRigSpeed, setTotalRigSpeed] = useState(0);
   const [totalRigpower, setTotalRigPower] = useState(0);
+  const [borderRadiusClass, setBorderRadiusClass] = useState("");
 
   useEffect(() => {
     let totalDevicesVal = 0
@@ -85,17 +86,23 @@ function Rig(props) {
     rig,
   } = props
 
-  const openstyle = open ? {
-    borderBottomRightRadius: 0,
-    borderBottomLeftRadius: 0
-  } : {}
+  // const openstyle = open ? {
+  //   borderBottomRightRadius: "0 !important",
+  //   borderBottomLeftRadius: "0 !important"
+  // } : {}
 
   const statusVal = rig?.minerStatus === "OFFLINE" ? "Rig offline" : `Mining (${onlineDevices}/${totalDevices})`
   const efficiency = totalRigSpeed === 0 && totalRigpower === 0 ? 0 : (totalRigSpeed/totalRigpower).toFixed(2)
 
+  const setBorderRadius = (e) => {
+    if (borderRadiusClass === "hide-bottom-border-radius") setTimeout(() => {setBorderRadiusClass("")}, 5)
+    else setBorderRadiusClass("hide-bottom-border-radius")
+    console.log({e})
+  }
+
   return (
     <div>
-      <OuterContainer elevation={5} onClick={()=> setOpen(!open)} openstyle={openstyle}>
+      <OuterContainer elevation={5} onClick={()=> setOpen(!open)} className={borderRadiusClass}>
         <RigContainer>
           <RigItem>{rig.name}</RigItem>
           <RigItem>{statusVal}</RigItem>
@@ -106,7 +113,7 @@ function Rig(props) {
         </RigContainer>
       </OuterContainer>
       {rig?.minerStatus !== "OFFLINE" && (
-        <Collapse in={open}>
+        <Collapse in={open} addEndListener={setBorderRadius}>
           <div>
             <TableContainer component={TablePaper} elevation={5}>
               <Table sx={{ minWidth: 650 }} aria-label="simple table">

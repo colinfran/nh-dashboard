@@ -57,14 +57,14 @@ const renderRigData = (props, speedData, powerData) => {
     <RowContainer>
       <RigStats1>
         <div>
-          <div style={{color: "#959595"}}>Mining</div>
+          <div style={{color: "#a0a0a0"}}>Mining</div>
           <div style={fontStyle}>{`${onlineRigs} / ${rigData?.totalRigs} rigs`}</div>
           <div style={fontStyle}>{`${onlineDevices} / ${totalDevices} devices`}</div>
         </div>
       </RigStats1>
       <RigStats2>
         <div>
-          <div style={{color: "#959595"}}>Stats</div>
+          <div style={{color: "#a0a0a0"}}>Stats</div>
           <div style={fontStyle}>{`Total Power: ${(Number(powerData)).toFixed(2)} W`}</div>
           <div style={fontStyle}>{`Total Speed: ${(Number(speedData)).toFixed(2)} MH`}</div>
         </div>

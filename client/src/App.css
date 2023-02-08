@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #49515F;
+  background-color: #121212;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,4 +42,38 @@
 
 .navtabs{
   background-color: #49515F;
+}
+
+a.MuiButtonBase-root{
+  color: #fff;
+}
+
+.Mui-selected{
+  
+}
+
+.MuiTabs-root{
+  background-color: #121212 !important;
+}
+
+.MuiPaper-root{
+  background-color: #4A545C !important;
+  color: #d0d0d0 !important;
+  border-radius: 10px !important;
+}
+
+.MuiTableCell-root {
+  color: #d0d0d0 !important;
+}
+
+.MuiCollapse-wrapperInner > div > .MuiPaper-root{
+  border-radius: 0px !important;
+  border-bottom-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.hide-bottom-border-radius{
+  border-radius: 0px !important;
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
 }

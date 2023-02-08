@@ -26,10 +26,12 @@ const Image = styled.img`
   transform: rotate(20deg);
   height: 75%;
   width: 75%;
+  filter: invert(80%);
 `
 
 const CurrentlyMiningText = styled.div`
   font-size: calc(4px + 3vmin);
+  color: #a0a0a0;
 `
 
 const CurrentlyMiningValue = styled.div`
