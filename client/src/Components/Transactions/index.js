@@ -24,8 +24,9 @@ function Transactions(props) {
 
   
   const location = useLocation();
-  const isDemo = location.pathname.includes("demo");
-
+  // const isDemo = location.pathname.includes("demo");
+  const isDemo = true
+  
   async function getTransactions() {
     setLoadingTransactions(true)
     if (isDemo){

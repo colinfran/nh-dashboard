@@ -21,8 +21,8 @@ const TabsContainer = mstyled(Tabs)(({ theme }) => ({
 
 function App() {
   const location = useLocation();
-  const isDemo = location.pathname.includes("demo");
-
+  // const isDemo = location.pathname.includes("demo");
+  const isDemo = true
   const [data, setData] = useState();
   const [transactions, setTransactions] = useState();
   const [timeLeft, setTimeLeft] = useState(0);
@@ -121,25 +121,25 @@ function App() {
       {
          isDemo && (
           <TabsContainer value={location.pathname} centered>
-            <Tab label="Rigs" component={Link} to={`/demo`} value={`/demo`} id="1"/>,
-            <Tab label="Wallet" component={Link} to={`/demo/wallet`} value={`/demo/wallet`} id="2"/>
+            <Tab label="Rigs" component={Link} to={`/nh-dashboard/`} value={`/nh-dashboard/`} id="1"/>,
+            <Tab label="Wallet" component={Link} to={`/nh-dashboard/wallet`} value={`/nh-dashboard/wallet`} id="2"/>
           </TabsContainer>
          )
       }
-      {
+      {/* {
         isLoggedIn && !isDemo && (
           <TabsContainer value={location.pathname} centered>
             <Tab label="Rigs" component={Link} to={`/`} value={`/`} id="1"/>,
             <Tab label="Wallet" component={Link} to={`/wallet`} value={`/wallet`} id="2"/>
           </TabsContainer>
         )
-      }
+      } */}
       <header className="App-header">
         {
           isLoggedIn || isDemo ? (
             <div style={{ width: "92%" }}>
               <Routes>
-                <Route
+                {/* <Route
                   path="/"
                   element={<Home data={data} transactions={transactions} />}
                 />
@@ -152,13 +152,13 @@ function App() {
                       setTransactions={setTransactions}
                     />
                   }
-                />
+                /> */}
                 <Route
-                  path="/demo/"
+                  path="/nh-dashboard"
                   element={<Home data={data} transactions={transactions} />}
                 />
                 <Route
-                  path="/demo/wallet"
+                  path="/nh-dashboard/wallet"
                   element={
                     <Wallet
                       data={data}
