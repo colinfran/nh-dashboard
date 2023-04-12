@@ -2,8 +2,9 @@
 # nh-dashboard
 A simple NiceHash dashboard that displays:
 
-## Demo
-https://nh-dashboard-d4tym.ondigitalocean.app/demo
+EDIT: I am not mining now so to save money I took down the live demo server since there was no reason to pay for it if I wasnt using it. But I did publish the app as a demo github page.
+https://colinfran.github.io/nh-dashboard/
+
 <br/><br/>
 
 <img src="./client/public/screenshot.png" alt="screenshot of nh-dashboard app" style="max-width: 1010px"/>
