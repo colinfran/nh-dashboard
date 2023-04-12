@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/nh-dashboard/static/css/main.a35ae936.css",
-    "main.js": "/nh-dashboard/static/js/main.de8707c8.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/nh-dashboard/static/js/787.c4e7f8f9.chunk.js",
-    "index.html": "/nh-dashboard/index.html",
-    "main.a35ae936.css.map": "/nh-dashboard/static/css/main.a35ae936.css.map",
-    "main.de8707c8.js.map": "/nh-dashboard/static/js/main.de8707c8.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/nh-dashboard/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/static/css/main.0716f822.css",
+    "main.js": "/static/js/main.74f9cbbe.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/nhlogo.png": "/static/media/nhlogo.d011d9b009c3f98726f2.png",
+    "index.html": "/index.html",
+    "main.0716f822.css.map": "/static/css/main.0716f822.css.map",
+    "main.74f9cbbe.js.map": "/static/js/main.74f9cbbe.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a35ae936.css",
-    "static/js/main.de8707c8.js"
+    "static/css/main.0716f822.css",
+    "static/js/main.74f9cbbe.js"
   ]
 }
