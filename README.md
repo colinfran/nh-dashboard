@@ -2,7 +2,7 @@
 # nh-dashboard
 A simple NiceHash dashboard that displays:
 
-I am not mining now so to save money I took down the live demo server since there was no reason to pay for it if I wasnt using it. But I did publish the app as a demo github page.
+EDIT: I am not mining now so to save money I took down the live demo server since there was no reason to pay for it if I wasnt using it. But I did publish the app as a demo github page.
 https://colinfran.github.io/nh-dashboard/
 
 <br/><br/>
